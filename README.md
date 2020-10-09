@@ -1,3 +1,3 @@
-# GPS-Workgroup
+# GPS-Project
 ---
-Repository for the GPS's workgroup
+Repository for the GPS's work group project
