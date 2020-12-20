@@ -15,7 +15,7 @@ import java.util.Objects;
 
 public class FindYourPathData {
 
-    private long media;
+    private double media;
 
     private int catA = 0;
     private int catB = 0;
@@ -42,11 +42,19 @@ public class FindYourPathData {
         return XMLReader.LeitorXML(path);
     }
 
-    //recebe média
+    //recebe média em string
     //verifica se média [9.5; 20]
     //return false:a média não pertence ao intervalo
     //return true: a média foi devidamente colocada e
-    public boolean setMedia(int n) {
+    public boolean setMedia(String med) {
+        double n;
+        try {
+            n = Double.parseDouble(med);
+        }catch(NullPointerException | NumberFormatException e){
+            return false;
+        }
+
+
         if (n < 9.5 || n > 20.0)
             return false;
         media = n;
