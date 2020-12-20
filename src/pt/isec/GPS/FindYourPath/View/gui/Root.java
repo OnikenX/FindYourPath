@@ -7,6 +7,7 @@ import pt.isec.GPS.FindYourPath.Model.FindYourPathModel;
 public class Root extends BorderPane{
     private final FindYourPathModel findYourPathModel;
     StackPane center;
+
     public Root(FindYourPathModel findYourPathModel) {
         this.findYourPathModel = findYourPathModel;
         organizaComponentes();
@@ -16,11 +17,7 @@ public class Root extends BorderPane{
         GNoEcraDeComeco gNoEcraDeComeco = new GNoEcraDeComeco(findYourPathModel);
 
         center = new StackPane();
+
     }
-
-
-
-
-
 
 }
