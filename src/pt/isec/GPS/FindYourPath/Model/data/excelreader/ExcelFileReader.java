@@ -7,6 +7,8 @@ import org.apache.poi.ss.usermodel.FormulaEvaluator;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import pt.isec.GPS.FindYourPath.Model.FindYourPathModel;
+import pt.isec.GPS.FindYourPath.Model.data.FindYourPathData;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -43,7 +45,7 @@ public final class ExcelFileReader {
 
         //Obtem o file
         try {
-            fis = new FileInputStream(new File("src/Excel/medias.xls"));
+            fis = new FileInputStream(new File(FindYourPathData.ExcelFilePath));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             return -2;
@@ -100,7 +102,6 @@ public final class ExcelFileReader {
 
             listaCursos.add(new Curso(curso, instituicao, media));
         }
-
         return listaCursos.size();
     }
 

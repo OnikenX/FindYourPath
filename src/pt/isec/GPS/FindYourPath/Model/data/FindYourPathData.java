@@ -17,7 +17,8 @@ import java.util.List;
 import java.util.Objects;
 
 public class FindYourPathData {
-    private final static String XMLfolder = "perguntas", ExcelFolder = "Excel";
+    public final static String XMLfolder = "perguntas", ExcelFolder = "Excel", ExcelFile = "medias.xls",
+    ExcelFilePath = ExcelFolder + File.separator + ExcelFile;
 
     private double media = -1;
 
@@ -41,7 +42,6 @@ public class FindYourPathData {
 
     public FindYourPathData() {
         allPages = Objects.requireNonNull(new File(XMLfolder).list()).length;
-
     }
 
     /**
@@ -121,9 +121,9 @@ public class FindYourPathData {
             listaCursos = getListCursosByName(listNomeCursos, filtro);
 
         return orderCursosByConfianca(listaCursos);
-
-
     }
+
+
 
 
 
@@ -212,6 +212,7 @@ public class FindYourPathData {
 
                     break;
                 case "tecnologia":
+
 
                     break;
                 case "economia":

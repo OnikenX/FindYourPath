@@ -2,14 +2,17 @@ package pt.isec.GPS.FindYourPath.Controller;
 
 import org.xml.sax.SAXException;
 import pt.isec.GPS.FindYourPath.Model.FindYourPathModel;
+import pt.isec.GPS.FindYourPath.Model.data.CursoEConfianca;
 import pt.isec.GPS.FindYourPath.Model.data.XMLReader.Questao;
 import pt.isec.GPS.FindYourPath.Model.estados.IEstado;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.List;
 
 public class FindYourPathObservable extends PropertyChangeSupport  implements Serializable {
     //versao serializada para guardar estado
@@ -26,6 +29,10 @@ public class FindYourPathObservable extends PropertyChangeSupport  implements Se
 
     public Class<? extends IEstado> getEstado() {
         return findYourPathModel.getEstado();
+    }
+
+    public List<CursoEConfianca> finalizaTesteEObtemResultados(String filtro) throws FileNotFoundException, CloneNotSupportedException {
+        return findYourPathModel.finalizaTesteEObtemResultados(filtro);
     }
 
     //modelo
