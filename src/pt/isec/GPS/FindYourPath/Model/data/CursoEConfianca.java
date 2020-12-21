@@ -1,4 +1,5 @@
 package pt.isec.GPS.FindYourPath.Model.data;
+
 import pt.isec.GPS.FindYourPath.Model.data.excelreader.Curso;
 
 public class CursoEConfianca {
@@ -7,9 +8,16 @@ public class CursoEConfianca {
     private final double confianca;
 
 
-    public CursoEConfianca(Curso curso, double confianca) {
+    public CursoEConfianca(Curso curso, double media) {
         this.curso = curso;
-        this.confianca = confianca;
+        this.confianca = setConfiancaWithMedia(media);
+    }
+
+    private double setConfiancaWithMedia(double media) {
+
+        return 50 + ((media - curso.getMedia()) * (media - curso.getMedia())) / 20 * 100;   //normalização para 100%
+
+
     }
 
 

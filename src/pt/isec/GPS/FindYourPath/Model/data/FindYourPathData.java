@@ -1,5 +1,6 @@
 package pt.isec.GPS.FindYourPath.Model.data;
 
+import org.apache.poi.hpsf.ReadingNotSupportedException;
 import org.xml.sax.SAXException;
 import pt.isec.GPS.FindYourPath.Model.data.XMLReader.Questao;
 import pt.isec.GPS.FindYourPath.Model.data.XMLReader.XMLReader;
@@ -8,6 +9,7 @@ import pt.isec.GPS.FindYourPath.Model.data.excelreader.ExcelFileReader;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -43,26 +45,26 @@ public class FindYourPathData {
     }
 
     /**
-    recebem numnero da pergunta a carregar
-    lê e obtem pergunta
-    return Questão pedida
- */
+     * recebem numnero da pergunta a carregar
+     * lê e obtem pergunta
+     * return Questão pedida
+     */
     public static synchronized Questao obtemQuestao(int num_pergunta) throws ParserConfigurationException, SAXException, IOException {
         String path = "perguntas\\" + num_pergunta;
         return XMLReader.LeitorXML(path);
     }
 
     /**
-    *  recebe média em string
-    *  verifica se média [9.5; 20]
-    *  return false:a média não pertence ao intervalo
-    *  return true: a média foi devidamente colocada e
-    */
-     public boolean setMedia(String med) {
+     * recebe média em string
+     * verifica se média [9.5; 20]
+     * return false:a média não pertence ao intervalo
+     * return true: a média foi devidamente colocada e
+     */
+    public boolean setMedia(String med) {
         double n;
         try {
             n = Double.parseDouble(med);
-        }catch(NullPointerException | NumberFormatException e){
+        } catch (NullPointerException | NumberFormatException e) {
             System.out.println("returnou excecao");
             e.printStackTrace();
             return false;
@@ -74,8 +76,8 @@ public class FindYourPathData {
     }
 
 
-    public int getAllPages(){
-         return allPages;
+    public int getAllPages() {
+        return allPages;
     }
 
     public double getMedia() {
@@ -86,34 +88,60 @@ public class FindYourPathData {
         return actualPage;
     }
 
-    public String getPergunta(){
-         return questaoActual.getPergunta();
+    public String getPergunta() {
+        return questaoActual.getPergunta();
     }
 
-    public String getCategoria(){
-         return questaoActual.getCategoria();
+    public String getCategoria() {
+        return questaoActual.getCategoria();
     }
 
     public boolean nextPage() throws Exception {
-        if(actualPage < allPages){
-            questaoActual = XMLReader.LeitorXML(XMLfolder+ File.separator + ++actualPage + ".xml");
+        if (actualPage < allPages) {
+            questaoActual = XMLReader.LeitorXML(XMLfolder + File.separator + ++actualPage + ".xml");
             return true;
         }
         return false;
     }
 
     /**
+     * @param filtro -> nome do filtro, NULL se não houver filtro
+     * @return Lista CuresosEConfianca Ordenada pela confiança ou algo do genero
+     * mostrar os primeiros 5 resultados dessa lista
+     */
+    public List<CursoEConfianca> finalizaTesteEObtemResultados(String filtro) throws FileNotFoundException, CloneNotSupportedException {
+
+        List<String> listCatMaxValue = getMaxValueCategorias();
+        List<String> listNomeCursos = getNomeCursos(listCatMaxValue);
+        List<Curso> listaCursos;
+
+        if (filtro == null)
+            listaCursos = getListCursosByName(listNomeCursos, null);   //modificar esta para aceitar filtro
+        else
+            listaCursos = getListCursosByName(listNomeCursos, filtro);
+
+        return orderCursosByConfianca(listaCursos);
+
+
+    }
+
+
+
+    /*
     obtem categoria com valor máximo;           <-      escolhe categorias
-    obtem area baseado na categoria
-    obtem nome de cursos baseado na area
-    obtem cursos baseado no seu nome
-    ordena cursos baseado na proximidade da média
+    obtem area baseado na categoria             //getMaxValueCategorias
+    obtem nome de cursos baseado na area          //getMaxValueCategorias
+    obtem cursos baseado no seu nome                //getListCursosByName
+    ordena cursos baseado na proximidade da média   //orderCursosByConfianca
     cria niveis de confianca baseado nas diferencas da média (maior ou menor)
     escolhe 5 cursos e devolve
-
-    obtem a categoria com valor máximo
-    @return categoria com valor máximo e categorias com 90% dos pontos da cat com o valor máximo
     */
+
+    /**
+     * obtem a categoria com valor máximo
+     *
+     * @return categoria com valor máximo e categorias com 90% dos pontos da cat com o valor máximo
+     */
     private List<String> getMaxValueCategorias() {
         String max;
         String second;
@@ -142,7 +170,7 @@ public class FindYourPathData {
         listaSecundaria.sort(new CustomComparatorPontosECategoria());
 
         //adiciona à lista a dar return o maior curso e os cursos com 90%+ dos seus ponto
-        List<String> listaSaidas = new ArrayList<String>();
+        List<String> listaSaidas = new ArrayList<>();
 
         listaSaidas.add(listaSecundaria.get(0).getNome());      //adiciona o primeiro curso
 
@@ -164,34 +192,77 @@ public class FindYourPathData {
         List<String> nomeCursos = new ArrayList<String>();
 
         for (String categoria : categorias) {
-            if (categoria.equals("ciencia")) {
+            switch (categoria) {
+                case "ciencia":
+                    nomeCursos.add("Biologia");
+                    nomeCursos.add("Biologia Aplicada");
+                    nomeCursos.add("Biologia Celular e Molecular");
+                    nomeCursos.add("Biologia Marinha");
+                    nomeCursos.add("Biologia Marinha e Biotecnologia");
+                    nomeCursos.add("Bioquímica");
+                    nomeCursos.add("Ciências de Engenharia - Engenharia de Minas e Geoambiente");
+                    nomeCursos.add("Engenharia Biológica");
+                    nomeCursos.add("Engenharia Biomédica");
+                    nomeCursos.add("Geologia");
+                    nomeCursos.add("Matemática Aplicada");
+                    nomeCursos.add("Medicina");
+                    nomeCursos.add("Medicina Dentária");
+                    nomeCursos.add("Medicina Veterinária");
+                    nomeCursos.add("Química Aplicada");
 
-            } else if (categoria.equals("tecnologia")) {
+                    break;
+                case "tecnologia":
 
-            } else if (categoria.equals("economia")) {
+                    break;
+                case "economia":
+                    nomeCursos.add("Arquitectura, área de especializ. em Interiores e Reabilitação do Edificado");
 
-            } else if (categoria.equals("negocios")) {
+                    break;
+                case "negocios":
 
-            } else if (categoria.equals("borucracia")) {
+                    break;
+                case "borucracia":
+                    nomeCursos.add("Administração Pública");
+                    nomeCursos.add("Administração Público-Privada");
 
-            } else if (categoria.equals("arte")) {
+                    break;
+                case "arte":
+                    nomeCursos.add("Arquitectura, área de especializ. em Interiores e Reabilitação do Edificado");
+                    nomeCursos.add("Arquitetura");
 
-            } else if (categoria.equals("servicos")) {
+                    break;
+                case "servicos":
 
-            } else if (categoria.equals("cienciaTec")) {
+                    break;
+                case "cienciaTec":
 
-            } else if (categoria.equals("tecnologiaTec")) {
+                    break;
+                case "tecnologiaTec":
+                    nomeCursos.add("Administração de Publicidade e Marketing");
+                    nomeCursos.add("Administração e Marketing");
 
-            } else if (categoria.equals("exterior")) {
+                    break;
+                case "exterior":
+                    nomeCursos.add("Agricultura Biológica");
+                    nomeCursos.add("Agronomia");
 
-            } else if (categoria.equals("negociosTec")) {
+                    break;
+                case "negociosTec":
 
-            } else if (categoria.equals("comunicacao")) {
+                    break;
+                case "comunicacao":
+                    nomeCursos.add("Administração Público-Privada");
 
-            } else if (categoria.equals("arteTec")) {
+                    break;
+                case "arteTec":
 
-            } else if (categoria.equals("servicosTec")) {
+                    break;
+                case "servicosTec":
+                    nomeCursos.add("Animação Cultural e Comunitária");
+                    nomeCursos.add("Animação Sociocultural");
+                    nomeCursos.add("Animação Socioeducativa");
 
+                    break;
             }
 
         }
@@ -200,69 +271,125 @@ public class FindYourPathData {
     }
 
     /**
-     * @param acrescento para a categoria
-     * @param cat o character associado a categoria
+     * @param nomeCursosList<string> com nome dos cursos
+     * @param filtro                 -> filtro de localização
+     * @return devolve lista<curso> com todos os cursos
      */
-    public void addPontosCat(int acrescento, String cat){
-        if(cat.equals("A"))
+    private List<Curso> getListCursosByName(List<String> nomeCursosList, String filtro) throws FileNotFoundException, CloneNotSupportedException {
+        List<Curso> listCursos = new ArrayList<>();
+
+        int flag = ExcelFileReader.loadListaCursos();          //carrega os cursos
+        switch (flag) {
+            case -1:
+                break;
+            case -2:
+                throw new FileNotFoundException();
+            case -3:
+                throw new CloneNotSupportedException();
+        }
+
+
+        for (String nomeCurso : nomeCursosList) {             //para cada um dos nomes, obtem ops cursos
+            List<Curso> listaAuxiliar;
+            if (filtro == null)
+                listaAuxiliar = ExcelFileReader.getCursosByNome(nomeCurso);     //devolve lista de cursos com o nome
+            else
+                listaAuxiliar = ExcelFileReader.getCursosByNomeAndLocalizacao(nomeCurso, filtro);
+
+            assert listaAuxiliar != null;
+            for (Curso c : listaAuxiliar)            //adiciona se já não tiver sido adiconado
+            {
+                if (!listCursos.contains(c))             //se não tiver na lista
+                    listCursos.add(c);                     //adiciona o curso
+            }
+        }
+
+        return listCursos;
+    }
+
+
+    private List<CursoEConfianca> orderCursosByConfianca(List<Curso> listaCursos) {
+        List<CursoEConfianca> listaSecundariaCursosEConfianca = new ArrayList<>();
+        List<CursoEConfianca> listaCursosEConfianca = new ArrayList<>();
+        for (Curso curso : listaCursos)        //cria lista de cursosEConfiançaBaseado na Lista de cursos
+        {
+            listaSecundariaCursosEConfianca.add(new CursoEConfianca(curso, media));
+        }
+
+
+        //ordena os cursos baseado na sua confiança
+        for (CursoEConfianca cEC : listaSecundariaCursosEConfianca) {
+            if (cEC.getConfianca() == 60)           //pioritoza cursos com 60 de confiança
+                listaCursosEConfianca.add(0, cEC);
+            else if (cEC.getConfianca() < 60 && cEC.getConfianca() > 40)    //2a prioridade: 40-60 confiança
+            {
+                int i;                                      //guarda index do primeiro curso com menor confiança
+
+                for (i = 0; i < listaCursosEConfianca.size(); i++)                          //procura em todos os cursos
+                    if (cEC.getConfianca() > listaCursosEConfianca.get(i).getConfianca())   //um que tenha menor confiança que o atual
+                        break;                                                               //quando encontra para de procurar
+                listaCursosEConfianca.add(i, cEC);                                           //adiciona na posicao de forma a mantern a ordem
+            } else {
+                listaCursosEConfianca.add(cEC);
+            }
+        }
+        return listaCursosEConfianca;
+    }
+
+
+    /**
+     * @param acrescento para a categoria
+     * @param cat        o character associado a categoria
+     */
+    public void addPontosCat(int acrescento, String cat) {
+        if (cat.equals("A"))
             catA += acrescento;
-        else if(cat.equals("B"))
+        else if (cat.equals("B"))
             catB += acrescento;
-        else if(cat.equals("C"))
+        else if (cat.equals("C"))
             catC += acrescento;
-        else if(cat.equals("D"))
+        else if (cat.equals("D"))
             catD += acrescento;
-        else if(cat.equals("E"))
+        else if (cat.equals("E"))
             catE += acrescento;
-        else if(cat.equals("F"))
+        else if (cat.equals("F"))
             catF += acrescento;
-        else if(cat.equals("G"))
+        else if (cat.equals("G"))
             catG += acrescento;
-        else if(cat.equals("H"))
+        else if (cat.equals("H"))
             catH += acrescento;
-        else if(cat.equals("I"))
+        else if (cat.equals("I"))
             catI += acrescento;
-        else if(cat.equals("J"))
+        else if (cat.equals("J"))
             catJ += acrescento;
-        else if(cat.equals("K"))
+        else if (cat.equals("K"))
             catK += acrescento;
-        else if(cat.equals("L"))
+        else if (cat.equals("L"))
             catL += acrescento;
-        else if(cat.equals("M"))
+        else if (cat.equals("M"))
             catM += acrescento;
-        else if(cat.equals("N"))
+        else if (cat.equals("N"))
             catN += acrescento;
     }
 
-    public int getPontosCat(String cat){
-        if(cat.equals("A"))
-           return  catA;
-        else if(cat.equals("B"))
-           return  catB;
-        else if(cat.equals("C"))
-           return  catC;
-        else if(cat.equals("D"))
-           return  catD;
-        else if(cat.equals("E"))
-           return  catE;
-        else if(cat.equals("F"))
-           return  catF;
-        else if(cat.equals("G"))
-            return catG;
-        else if(cat.equals("H"))
-           return  catH;
-        else if(cat.equals("I"))
-           return  catI;
-        else if(cat.equals("J"))
-           return  catJ;
-        else if(cat.equals("K"))
-           return  catK;
-        else if(cat.equals("L"))
-          return   catL;
-        else if(cat.equals("M"))
-           return  catM;
-        else //if(cat.equals("N"))
-           return  catN;
+    public int getPontosCat(String cat) {
+        //if(cat.equals("N"))
+        return switch (cat) {
+            case "A" -> catA;
+            case "B" -> catB;
+            case "C" -> catC;
+            case "D" -> catD;
+            case "E" -> catE;
+            case "F" -> catF;
+            case "G" -> catG;
+            case "H" -> catH;
+            case "I" -> catI;
+            case "J" -> catJ;
+            case "K" -> catK;
+            case "L" -> catL;
+            case "M" -> catM;
+            default -> catN;
+        };
     }
 
     private List<Curso> getListCursos(List<String> listaNomeCursos) {
@@ -283,17 +410,19 @@ public class FindYourPathData {
     }
 
 
-
     public class PontosECategoria {
         private int pontos;
         private String nome;
+
         public PontosECategoria(String nome, int pontos) {
             this.pontos = pontos;
             this.nome = nome;
         }
+
         public int getPontos() {
             return pontos;
         }
+
         public String getNome() {
             return nome;
         }

@@ -131,7 +131,7 @@ public final class ExcelFileReader {
         if (!load)                   //lista ainda nao foi loaded
             return null;            //return null
 
-        ArrayList<Curso> listaCursosComNomePedido = new ArrayList<Curso>(); //inicializa lista (mesmo que não haja cursos, não devolve null)
+        ArrayList<Curso> listaCursosComNomePedido = new ArrayList<>(); //inicializa lista (mesmo que não haja cursos, não devolve null)
 
         for (Curso curso : listaCursos) {                                         //para todos os cursos da lista
             if (curso.getNome().toLowerCase().contains(nome.toLowerCase()))      //vcerifica se o seu nome contem o nome colocado
@@ -142,7 +142,7 @@ public final class ExcelFileReader {
             return listaCursosComNomePedido;                                       //devolve "nova" lista com cursos, nao vale a ena filtrar mais
 
 
-        ArrayList<Curso> listaCursosComNomeELocalPedido = new ArrayList<Curso>(); //inicializa lista (mesmo que não haja cursos, não devolve null)
+        ArrayList<Curso> listaCursosComNomeELocalPedido = new ArrayList<>(); //inicializa lista (mesmo que não haja cursos, não devolve null)
         
         for (Curso curso : listaCursosComNomePedido) {                                         //para todos os cursos da lista
             if (curso.getUniversidade().toLowerCase().contains(localizacao.toLowerCase()))      //vcerifica se o seu nome contem o nome colocado
