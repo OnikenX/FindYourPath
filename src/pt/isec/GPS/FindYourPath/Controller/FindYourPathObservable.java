@@ -1,17 +1,17 @@
 package pt.isec.GPS.FindYourPath.Controller;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.xml.sax.SAXException;
 import pt.isec.GPS.FindYourPath.Model.FindYourPathModel;
 import pt.isec.GPS.FindYourPath.Model.data.CursoEConfianca;
 import pt.isec.GPS.FindYourPath.Model.data.XMLReader.Questao;
+import pt.isec.GPS.FindYourPath.Model.data.excelreader.Curso;
+import pt.isec.GPS.FindYourPath.Model.data.excelreader.ExcelFileReader;
 import pt.isec.GPS.FindYourPath.Model.estados.IEstado;
 
 import javax.xml.parsers.ParserConfigurationException;
-import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.Serializable;
+import java.io.*;
 import java.util.List;
 
 public class FindYourPathObservable extends PropertyChangeSupport  implements Serializable {
@@ -82,6 +82,16 @@ public class FindYourPathObservable extends PropertyChangeSupport  implements Se
 
     public String getCategoria() {
         return findYourPathModel.getCategoria();
+    }
+
+    public void save(File showSaveDialog, List<Curso> list) throws Exception {
+
+            XSSFWorkbook workbook = ExcelFileReader.guardaListaDeCursosResultada(list);
+            //Write the workbook in file system
+            FileOutputStream out = new FileOutputStream(showSaveDialog);
+            workbook.write(out);
+            out.close();
+            System.out.println("howtodoinjava_demo.xlsx written successfully on disk.");
     }
 
     ////delegacoes do model

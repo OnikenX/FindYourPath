@@ -20,8 +20,10 @@ public class NoTeste extends EstadoAdapter {
         getFindYourPathData().addPontosCat(nDaResposta, getFindYourPathData().getCategoria());
         if (getFindYourPathData().nextPage())
             return this;
-        else
+        else{
+            System.out.println("entrei no ecra de resultados");
             return new NoEcraDeResultados(getFindYourPathData());
+        }
 
     }
 

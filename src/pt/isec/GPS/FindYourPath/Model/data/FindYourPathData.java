@@ -17,7 +17,8 @@ import java.util.List;
 import java.util.Objects;
 
 public class FindYourPathData {
-    private final static String XMLfolder = "perguntas", ExcelFolder = "Excel";
+    public final static String XMLfolder = "perguntas", ExcelFolder = "Excel", ExcelFile = "medias.xls",
+            ExcelFilePath = ExcelFolder + File.separator + ExcelFile;
 
     private double media = -1;
 

@@ -153,14 +153,15 @@ public final class ExcelFileReader {
         return listaCursosComNomeELocalPedido;
     }
 
-
-    //serve para escrever o ficheiro que guarda os resultados
-    //recebe uma lista de cursos que contem os resultados
-    //devolve o que representa o ficheiro .XLS --https://howtodoinjava.com/java/library/readingwriting-excel-files-in-java-poi-tutorial/
-    //para escrever o ficheiro:
+        /**
+    serve para escrever o ficheiro que guarda os resultados
+    recebe uma lista de cursos que contem os resultados
+    devolve o que representa o ficheiro .XLS --https://howtodoinjava.com/java/library/readingwriting-excel-files-in-java-poi-tutorial/
+    para escrever o ficheiro:
     /*
      try
         {
+            XSSFWorkbook workbook = guardaListaDeCursosResultada(lista);
             //Write the workbook in file system
             FileOutputStream out = new FileOutputStream(new File(localização fo ficheiro-> obter do mvc));
             workbook.write(out);

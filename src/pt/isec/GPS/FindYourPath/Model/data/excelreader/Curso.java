@@ -25,4 +25,13 @@ public class Curso {
     public double getMedia() {
         return media;
     }
+
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "nome='" + nome + '\'' +
+                ", Universidade='" + Universidade + '\'' +
+                ", media=" + media +
+                '}';
+    }
 }

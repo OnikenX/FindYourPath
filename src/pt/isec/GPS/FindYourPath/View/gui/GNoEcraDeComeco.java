@@ -39,7 +39,7 @@ public class GNoEcraDeComeco extends VBox {
         button.setOnAction(e->{
             if (!findYourPathObservable.setMedia(media.getText())){
                 media.clear();
-                media.setPromptText("A media tem de ser um valor entre 9.5 a 20.");
+                media.setPromptText("Valor entre 9.5 a 20.");
             }else{
                 try {
                     findYourPathObservable.comecarTeste(media.getText());

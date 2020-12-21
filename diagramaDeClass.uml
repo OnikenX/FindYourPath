@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="5798.0" y="0.0">groovyjarjarantlr.ANTLRHashString</node>
+    <node x="4342.0" y="13952.0">pt</node>
+    <node x="4983.0" y="8083.0">groovyjarjarantlr.BlockEndElement</node>
+    <node x="6274.0" y="8825.0">groovyjarjarantlr.CSharpNameSpace</node>
+    <node x="3212.0" y="8056.0">groovyjarjarantlr.LLkGrammarAnalyzer</node>
+    <node x="4167.0" y="3321.0">groovyjarjarantlr.ParseTreeToken</node>
+    <node x="2244.0" y="1004.0">groovyjarjarantlr.TokenStreamRetryException</node>
+    <node x="1794.0" y="2173.0">groovyjarjarantlr.CommonAST</node>
+    <node x="1371.0" y="13952.0">toolbarButtonGraphics</node>
+    <node x="7452.0" y="3119.0">groovyjarjarantlr.ANTLRParser</node>
+    <node x="4104.0" y="9552.0">groovyjarjarantlr.ZeroOrMoreBlock</node>
+    <node x="5652.0" y="9285.0">groovyjarjarantlr.TokenRangeElement</node>
+    <node x="3509.0" y="13952.0">java</node>
+    <node x="13694.0" y="0.0">groovyjarjarantlr.PreservingFileWriter</node>
+    <node x="5528.0" y="3942.0">groovyjarjarantlr.ANTLRTokdefParser</node>
+    <node x="3139.0" y="13952.0">javafx</node>
+    <node x="6604.0" y="8088.0">groovyjarjarantlr.TokenManager</node>
+    <node x="4273.0" y="2796.0">groovyjarjarantlr.TokenStreamRewriteEngine.InsertBeforeOp</node>
+    <node x="5016.0" y="10411.0">groovyjarjarantlr.DocBookCodeGenerator</node>
+    <node x="3990.0" y="2202.0">groovyjarjarantlr.MismatchedCharException</node>
+    <node x="2246.0" y="4519.0">groovyjarjarantlr.ASTFactory</node>
+    <node x="2629.0" y="4571.0">groovyjarjarantlr.ParserSharedInputState</node>
+    <node x="4031.0" y="4411.0">groovyjarjarantlr.TokenStreamHiddenTokenFilter</node>
+    <node x="960.0" y="8447.0">groovyjarjarantlr.JavaBlockFinishingInfo</node>
+    <node x="2761.0" y="13952.0">images</node>
+    <node x="10400.0" y="10196.0">groovyjarjarantlr.CSharpBlockFinishingInfo</node>
+    <node x="4649.0" y="7067.0">groovyjarjarantlr.RuleBlock</node>
+    <node x="3031.0" y="2698.0">groovyjarjarantlr.TokenStreamRewriteEngine.ReplaceOp</node>
+    <node x="12610.0" y="0.0">groovyjarjarantlr.Utils</node>
+    <node x="4229.0" y="2918.0">groovyjarjarantlr.CommonToken</node>
+    <node x="4992.0" y="2936.0">groovyjarjarantlr.InputBuffer</node>
+    <node x="5369.0" y="6546.0">groovyjarjarantlr.CodeGenerator</node>
+    <node x="8854.0" y="8393.0">groovyjarjarantlr.PythonCodeGenerator</node>
+    <node x="4454.0" y="8904.0">groovyjarjarantlr.StringLiteralElement</node>
+    <node x="1965.0" y="4754.0">groovyjarjarantlr.ASTIterator</node>
+    <node x="958.0" y="4579.0">groovyjarjarantlr.TreeParser</node>
+    <node x="2359.0" y="13952.0">META-INF</node>
+    <node x="3735.0" y="3733.0">groovyjarjarantlr.ParseTree</node>
+    <node x="2950.0" y="13952.0">groovy</node>
+    <node x="4773.0" y="3514.0">groovyjarjarantlr.TokenStream</node>
+    <node x="4802.0" y="3421.0">groovyjarjarantlr.debug</node>
+    <node x="5925.0" y="7821.0">groovyjarjarantlr.GrammarSymbol</node>
+    <node x="7389.0" y="6721.0">groovyjarjarantlr.SimpleTokenManager</node>
+    <node x="2054.0" y="7474.0">groovyjarjarantlr.PrintWriterWithSMAP</node>
+    <node x="1396.0" y="5723.0">groovyjarjarantlr.ASTNULLType</node>
+    <node x="5120.0" y="3772.0">groovyjarjarantlr.CharQueue</node>
+    <node x="4700.0" y="8120.0">groovyjarjarantlr.SynPredBlock</node>
+    <node x="4704.0" y="9608.0">groovyjarjarantlr.OneOrMoreBlock</node>
+    <node x="5166.0" y="1210.0">groovyjarjarantlr.CharScanner</node>
+    <node x="4357.0" y="3492.0">groovyjarjarantlr.TokenQueue</node>
+    <node x="2512.0" y="2766.0">groovyjarjarantlr.SemanticException</node>
+    <node x="12084.0" y="0.0">groovyjarjarantlr.FileLineFormatter</node>
+    <node x="2154.0" y="13952.0">netscape</node>
+    <node x="828.0" y="13973.0">groovyjarjarantlr.build</node>
+    <node x="5731.0" y="3277.0">groovyjarjarantlr.ByteBuffer</node>
+    <node x="1528.0" y="1435.0">groovyjarjarantlr.CharStreamIOException</node>
+    <node x="2706.0" y="2052.0">groovyjarjarantlr.TokenStreamRecognitionException</node>
+    <node x="4124.0" y="8848.0">groovyjarjarantlr.JavaCharFormatter</node>
+    <node x="3847.0" y="13952.0">sun</node>
+    <node x="4275.0" y="8265.0">groovyjarjarantlr.CharLiteralElement</node>
+    <node x="4977.0" y="8766.0">groovyjarjarantlr.WildcardElement</node>
+    <node x="3074.0" y="4450.0">groovyjarjarantlr.NoViableAltException</node>
+    <node x="6189.0" y="4948.0">groovyjarjarantlr.Tool</node>
+    <node x="2957.0" y="3777.0">groovyjarjarantlr.MismatchedTokenException</node>
+    <node x="3932.0" y="9044.0">groovyjarjarantlr.ActionElement</node>
+    <node x="3879.0" y="3022.0">groovyjarjarantlr.TokenStreamRewriteEngine.RewriteOperation</node>
+    <node x="13466.0" y="0.0">groovyjarjarantlr.ActionTransInfo</node>
+    <node x="6809.0" y="1070.0">groovyjarjarantlr.ANTLRStringBuffer</node>
+    <node x="2564.0" y="13952.0">groovyjarjarantlr.actions</node>
+    <node x="1941.0" y="13952.0">com.microsoft</node>
+    <node x="1498.0" y="7293.0">groovyjarjarantlr.JavaCodeGenerator</node>
+    <node x="4888.0" y="7815.0">groovyjarjarantlr.BlockContext</node>
+    <node x="4411.0" y="9467.0">groovyjarjarantlr.CSharpCharFormatter</node>
+    <node x="4346.0" y="7564.0">groovyjarjarantlr.RuleSymbol</node>
+    <node x="5557.0" y="8489.0">groovyjarjarantlr.GrammarAtom</node>
+    <node x="4012.0" y="13952.0">jdk</node>
+    <node x="3710.0" y="4407.0">groovyjarjarantlr.TokenStreamBasicFilter</node>
+    <node x="4042.0" y="7822.0">groovyjarjarantlr.RuleEndElement</node>
+    <node x="1030.0" y="13952.0">schemaorg_apache_xmlbeans</node>
+    <node x="4792.0" y="6291.0">groovyjarjarantlr.ToolErrorHandler</node>
+    <node x="3147.0" y="7262.0">groovyjarjarantlr.JavaCodeGeneratorPrintWriterManager</node>
+    <node x="5073.0" y="4487.0">groovyjarjarantlr.DefineGrammarSymbols</node>
+    <node x="0.0" y="4945.0">groovyjarjarantlr.TreeParserSharedInputState</node>
+    <node x="5967.0" y="8024.0">groovyjarjarantlr.StringLiteralSymbol</node>
+    <node x="4748.0" y="3694.0">groovyjarjarantlr.ExceptionHandler</node>
+    <node x="4050.0" y="4156.0">groovyjarjarantlr.ASdebug</node>
+    <node x="594.0" y="13973.0">repackage</node>
+    <node x="2965.0" y="974.0">groovyjarjarantlr.TokenStreamIOException</node>
+    <node x="4564.0" y="6848.0">groovyjarjarantlr.DefaultToolErrorHandler</node>
+    <node x="2338.0" y="8606.0">groovyjarjarantlr.GrammarAnalyzer</node>
+    <node x="12420.0" y="0.0">groovyjarjarantlr.ASTVisitor</node>
+    <node x="3456.0" y="4075.0">groovyjarjarantlr.TokenBuffer</node>
+    <node x="4621.0" y="8597.0">groovyjarjarantlr.CharFormatter</node>
+    <node x="6589.0" y="6980.0">groovyjarjarantlr.Grammar</node>
+    <node x="4088.0" y="9334.0">groovyjarjarantlr.PythonCharFormatter</node>
+    <node x="13956.0" y="0.0">groovyjarjarantlr.ANTLRError</node>
+    <node x="1680.0" y="13952.0">groovyjarjarasm</node>
+    <node x="11619.0" y="10708.0">groovyjarjarantlr.PythonBlockFinishingInfo</node>
+    <node x="3721.0" y="4997.0">groovyjarjarantlr.TokenStreamSelector</node>
+    <node x="3328.0" y="13952.0">javax</node>
+    <node x="3732.0" y="2461.0">groovyjarjarantlr.TokenWithIndex</node>
+    <node x="14167.0" y="31.0">groovyjarjarpicocli</node>
+    <node x="2894.0" y="3404.0">groovyjarjarantlr.CommonHiddenStreamToken</node>
+    <node x="4304.0" y="8471.0">groovyjarjarantlr.RuleRefElement</node>
+    <node x="343.0" y="13952.0">groovyjarjarantlr.FileCopyException</node>
+    <node x="3313.0" y="2069.0">groovyjarjarantlr.TokenStreamRewriteEngine</node>
+    <node x="4783.0" y="3943.0">groovyjarjarantlr.Token</node>
+    <node x="13241.0" y="0.0">groovyjarjarantlr.Version</node>
+    <node x="7147.0" y="4112.0">groovyjarjarantlr.ANTLRTokdefParserTokenTypes</node>
+    <node x="6017.0" y="7404.0">groovyjarjarantlr.TokenSymbol</node>
+    <node x="4645.0" y="3093.0">groovyjarjarantlr.ParseTreeRule</node>
+    <node x="2553.0" y="5267.0">groovyjarjarantlr.collections</node>
+    <node x="5572.0" y="10674.0">groovyjarjarantlr.HTMLCodeGenerator</node>
+    <node x="5296.0" y="10120.0">groovyjarjarantlr.TokenRefElement</node>
+    <node x="4928.0" y="6412.0">groovyjarjarantlr.Alternative</node>
+    <node x="1883.0" y="9841.0">groovyjarjarantlr.CppCodeGenerator</node>
+    <node x="12405.0" y="121.0">groovyjarjarantlr.DumpASTVisitor</node>
+    <node x="2044.0" y="1805.0">groovyjarjarantlr.CharStreamException</node>
+    <node x="2669.0" y="6549.0">groovyjarjarantlr.MakeGrammar</node>
+    <node x="0.0" y="13978.0">groovyjarjarcommonscli</node>
+    <node x="2267.0" y="2367.0">groovyjarjarantlr.ANTLRException</node>
+    <node x="2959.0" y="2893.0">groovyjarjarantlr.RecognitionException</node>
+    <node x="4688.0" y="9341.0">groovyjarjarantlr.AlternativeElement</node>
+    <node x="5035.0" y="3567.0">groovyjarjarantlr.preprocessor</node>
+    <node x="5356.0" y="2702.0">groovyjarjarantlr.LexerSharedInputState</node>
+    <node x="8335.0" y="6867.0">groovyjarjarantlr.LexerGrammar</node>
+    <node x="2122.0" y="5338.0">groovyjarjarantlr.Parser</node>
+    <node x="6236.0" y="7296.0">groovyjarjarantlr.AlternativeBlock</node>
+    <node x="6082.0" y="7144.0">groovyjarjarantlr.TreeBlockContext</node>
+    <node x="12892.0" y="0.0">groovyjarjarantlr.StringUtils</node>
+    <node x="4353.0" y="6058.0">groovyjarjarantlr.ExceptionSpec</node>
+    <node x="5557.0" y="4927.0">groovyjarjarantlr.TreeSpecifierNode</node>
+    <node x="5068.0" y="8450.0">groovyjarjarantlr.CharRangeElement</node>
+    <node x="8236.0" y="8598.0">groovyjarjarantlr.CSharpCodeGenerator</node>
+    <node x="7764.0" y="6466.0">groovyjarjarantlr.DiagnosticCodeGenerator</node>
+    <node x="4595.0" y="4519.0">groovyjarjarantlr.ANTLRGrammarParseBehavior</node>
+    <node x="6401.0" y="3202.0">groovyjarjarantlr.ANTLRTokdefLexer</node>
+    <node x="4177.0" y="13952.0">com.sun</node>
+    <node x="5062.0" y="7259.0">groovyjarjarantlr.GrammarElement</node>
+    <node x="5025.0" y="9156.0">groovyjarjarantlr.LLkAnalyzer</node>
+    <node x="3968.0" y="6797.0">groovyjarjarantlr.DefaultJavaCodeGeneratorPrintWriterManager</node>
+    <node x="5578.0" y="8853.0">groovyjarjarantlr.TreeElement</node>
+    <node x="5305.0" y="8206.0">groovyjarjarantlr.NameSpace</node>
+    <node x="3682.0" y="13952.0">org</node>
+    <node x="3041.0" y="5366.0">groovyjarjarantlr.ASTPair</node>
+    <node x="4595.0" y="2649.0">groovyjarjarantlr.CharBuffer</node>
+    <node x="12079.0" y="276.0">groovyjarjarantlr.DefaultFileLineFormatter</node>
+    <node x="3455.0" y="1874.0">groovyjarjarantlr.NoViableAltForCharException</node>
+    <node x="4457.0" y="3951.0">groovyjarjarantlr.LLkParser</node>
+    <node x="1902.0" y="3151.0">groovyjarjarantlr.BaseAST</node>
+    <node x="6903.0" y="6881.0">groovyjarjarantlr.ImportVocabTokenManager</node>
+    <node x="5567.0" y="6352.0">groovyjarjarantlr.ParserGrammar</node>
+    <node x="4721.0" y="9871.0">groovyjarjarantlr.CppCharFormatter</node>
+    <node x="3895.0" y="8256.0">groovyjarjarantlr.Lookahead</node>
+    <node x="2572.0" y="2369.0">groovyjarjarantlr.CommonASTWithHiddenTokens</node>
+    <node x="5041.0" y="8986.0">groovyjarjarantlr.BlockWithImpliedExitPath</node>
+    <node x="8364.0" y="1884.0">groovyjarjarantlr.ANTLRTokenTypes</node>
+    <node x="4358.0" y="8020.0">groovyjarjarantlr.TreeWalkerGrammar</node>
+    <node x="6005.0" y="2779.0">groovyjarjarantlr.ANTLRLexer</node>
+    <node x="2543.0" y="1558.0">groovyjarjarantlr.TokenStreamException</node>
+    <node x="305.0" y="13730.0">groovyjarjarantlr.CppBlockFinishingInfo</node>
+    <node x="3070.0" y="2299.0">groovyjarjarantlr.TokenStreamRewriteEngine.DeleteOp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="groovyjarjarantlr.CSharpCharFormatter" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamHiddenTokenFilter" target="groovyjarjarantlr.TokenStream">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CommonAST" target="groovyjarjarantlr.BaseAST">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharStreamIOException" target="groovyjarjarantlr.CharStreamException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Tool" target="groovyjarjarantlr.ToolErrorHandler">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.GrammarAtom" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Parser" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ParserSharedInputState" target="groovyjarjarantlr.TokenBuffer">
+      <point x="-2.1888831781998306" y="-4.495418827227695" />
+      <point x="-2.1888831781998306" y="-4.495418827227695" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharScanner" target="groovyjarjarantlr.InputBuffer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRecognitionException" target="groovyjarjarantlr.TokenStreamException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ExceptionHandler" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.StringLiteralElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.ReplaceOp" target="groovyjarjarantlr.TokenStreamRewriteEngine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeElement" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.preprocessor" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.PythonCodeGenerator" target="groovyjarjarantlr.RuleBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleRefElement" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ZeroOrMoreBlock" target="groovyjarjarantlr.BlockWithImpliedExitPath">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkGrammarAnalyzer" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStream" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.InputBuffer">
+      <point x="6.139519991841439" y="0.0" />
+      <point x="0.0" y="8.61608965038613" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRParser" target="groovyjarjarantlr.ANTLRTokenTypes">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ImportVocabTokenManager" target="groovyjarjarantlr.SimpleTokenManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine" target="groovyjarjarantlr.TokenStream">
+      <point x="2.449545053910583" y="-4.358867860908504" />
+      <point x="2.449545053910583" y="-4.358867860908504" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefineGrammarSymbols" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultToolErrorHandler" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ExceptionSpec" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DocBookCodeGenerator" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRParser" target="groovyjarjarantlr.ANTLRGrammarParseBehavior">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultJavaCodeGeneratorPrintWriterManager" target="groovyjarjarantlr.PrintWriterWithSMAP">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.preprocessor" target="groovyjarjarantlr.preprocessor">
+      <point x="45.5" y="-15.0" />
+      <point x="5176.5" y="3549.5" />
+      <point x="5185.0" y="3541.0" />
+      <point x="5244.5" y="3541.0" />
+      <point x="5253.0" y="3549.5" />
+      <point x="5253.0" y="3568.5" />
+      <point x="5244.5" y="3577.0" />
+      <point x="96.0" y="-5.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamBasicFilter" target="groovyjarjarantlr.ASdebug">
+      <point x="0.0" y="8.067723813634075" />
+      <point x="6.37107803308453" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Alternative" target="groovyjarjarantlr.SynPredBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MismatchedCharException" target="groovyjarjarantlr.RecognitionException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CommonHiddenStreamToken" target="groovyjarjarantlr.CommonToken">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultJavaCodeGeneratorPrintWriterManager" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.WildcardElement" target="groovyjarjarantlr.GrammarAtom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenRangeElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ParseTreeRule" target="groovyjarjarantlr.ParseTree">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.ParseTree">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeBlockContext" target="groovyjarjarantlr.BlockContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefLexer" target="groovyjarjarantlr.CharScanner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkParser" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefLexer" target="groovyjarjarantlr.ANTLRTokdefParserTokenTypes">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MismatchedTokenException" target="groovyjarjarantlr.RecognitionException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ASTFactory" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ASdebug" target="groovyjarjarantlr.ASdebug">
+      <point x="38.0" y="-15.0" />
+      <point x="4164.0" y="4141.0" />
+      <point x="4170.0" y="4135.0" />
+      <point x="4217.0" y="4135.0" />
+      <point x="4223.0" y="4141.0" />
+      <point x="4223.0" y="4157.5" />
+      <point x="4217.0" y="4163.5" />
+      <point x="76.0" y="-7.5" />
+    </edge>
+    <edge source="groovyjarjarantlr.ASTPair" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharLiteralElement" target="groovyjarjarantlr.GrammarAtom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Alternative" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Grammar" target="groovyjarjarantlr.TokenManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.DeleteOp" target="groovyjarjarantlr.TokenStreamRewriteEngine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.PythonCodeGenerator" target="groovyjarjarantlr.PythonBlockFinishingInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefParser" target="groovyjarjarantlr.ANTLRTokdefParserTokenTypes">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharScanner" target="groovyjarjarantlr.TokenStream">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.PythonCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamIOException" target="groovyjarjarantlr.TokenStreamException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Parser" target="groovyjarjarantlr.ParserSharedInputState">
+      <point x="-4.794353793194205" y="-1.419215172440616" />
+      <point x="-4.794353793193977" y="-1.4192151724405448" />
+    </edge>
+    <edge source="groovyjarjarantlr.JavaCharFormatter" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.build" target="groovyjarjarantlr.build">
+      <point x="34.0" y="-15.0" />
+      <point x="930.0" y="13958.0" />
+      <point x="936.0" y="13952.0" />
+      <point x="979.0" y="13952.0" />
+      <point x="985.0" y="13958.0" />
+      <point x="985.0" y="13974.5" />
+      <point x="979.0" y="13980.5" />
+      <point x="68.0" y="-7.5" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamSelector" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CodeGenerator" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="-5.051408139861678" />
+      <point x="0.0" y="-5.051408139861451" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleSymbol" target="groovyjarjarantlr.RuleRefElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Parser" target="groovyjarjarantlr.collections">
+      <point x="-4.621331697725509" y="-1.9087412971895077" />
+      <point x="-4.621331697725509" y="-1.908741297189522" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRParser" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRParser" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.preprocessor" target="groovyjarjarantlr.CharScanner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CodeGenerator" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.RuleEndElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultToolErrorHandler" target="groovyjarjarantlr.ToolErrorHandler">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkAnalyzer" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkAnalyzer" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRecognitionException" target="groovyjarjarantlr.RecognitionException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharRangeElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CSharpCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultJavaCodeGeneratorPrintWriterManager" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CSharpCodeGenerator" target="groovyjarjarantlr.CSharpNameSpace">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.collections" target="groovyjarjarantlr.collections">
+      <point x="46.0" y="15.0" />
+      <point x="2691.0" y="5312.0" />
+      <point x="2697.0" y="5318.0" />
+      <point x="2752.0" y="5318.0" />
+      <point x="2758.0" y="5312.0" />
+      <point x="2758.0" y="5295.5" />
+      <point x="2752.0" y="5289.5" />
+      <point x="92.0" y="7.5" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenBuffer" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MismatchedCharException" target="groovyjarjarantlr.CharScanner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamHiddenTokenFilter" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.GrammarElement" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ZeroOrMoreBlock" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.RuleRefElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.debug">
+      <point x="-34.0" y="-15.0" />
+      <point x="4836.0" y="3406.0" />
+      <point x="4830.0" y="3400.0" />
+      <point x="4787.0" y="3400.0" />
+      <point x="4781.0" y="3406.0" />
+      <point x="4781.0" y="3422.5" />
+      <point x="4787.0" y="3428.5" />
+      <point x="-68.0" y="-7.5" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenRefElement" target="groovyjarjarantlr.GrammarAtom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharScanner" target="groovyjarjarantlr.ANTLRStringBuffer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockEndElement" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockContext" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.ExceptionSpec">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.InsertBeforeOp" target="groovyjarjarantlr.TokenStreamRewriteEngine.RewriteOperation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CppCodeGenerator" target="groovyjarjarantlr.NameSpace">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.WildcardElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.GrammarElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CodeGenerator" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.BlockContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeParser" target="groovyjarjarantlr.collections">
+      <point x="1.2462134062038785" y="-4.842205297816008" />
+      <point x="1.2462134062038785" y="-4.842205297816008" />
+    </edge>
+    <edge source="repackage" target="repackage">
+      <point x="42.0" y="-15.0" />
+      <point x="720.0" y="13958.0" />
+      <point x="726.0" y="13952.0" />
+      <point x="777.0" y="13952.0" />
+      <point x="783.0" y="13958.0" />
+      <point x="783.0" y="13974.5" />
+      <point x="777.0" y="13980.5" />
+      <point x="84.0" y="-7.5" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRParser" target="groovyjarjarantlr.LLkParser">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.ReplaceOp" target="groovyjarjarantlr.TokenStreamRewriteEngine.RewriteOperation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.RuleBlock">
+      <point x="0.3813849966611542" y="-4.9854333296436835" />
+      <point x="0.38138499666121106" y="-4.9854333296436835" />
+    </edge>
+    <edge source="groovyjarjarantlr.NoViableAltForCharException" target="groovyjarjarantlr.RecognitionException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleBlock" target="groovyjarjarantlr.ExceptionSpec">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LexerGrammar" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ActionElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ActionElement" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamBasicFilter" target="groovyjarjarantlr.TokenStream">
+      <point x="-3.490660699668979" y="-3.579844672578247" />
+      <point x="-3.490660699668922" y="-3.5798446725780195" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefLexer" target="groovyjarjarantlr.TokenStream">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenSymbol" target="groovyjarjarantlr.GrammarSymbol">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenManager" target="groovyjarjarantlr.TokenSymbol">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.HTMLCodeGenerator" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ParseTreeToken" target="groovyjarjarantlr.ParseTree">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DiagnosticCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ASTNULLType" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="5.948095539596835" />
+      <point x="9.231081789637756" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.DeleteOp" target="groovyjarjarantlr.TokenStreamRewriteEngine.ReplaceOp">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.NoViableAltException" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenBuffer" target="groovyjarjarantlr.TokenQueue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.InputBuffer" target="groovyjarjarantlr.CharQueue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefineGrammarSymbols" target="groovyjarjarantlr.ANTLRGrammarParseBehavior">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Parser" target="groovyjarjarantlr.ASTFactory">
+      <point x="-4.994098386871883" y="-0.2428606642598936" />
+      <point x="-4.994098386871883" y="-0.2428606642598652" />
+    </edge>
+    <edge source="groovyjarjarantlr.Grammar" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefParser" target="groovyjarjarantlr.Tool">
+      <point x="4.54423537794878" y="-2.085647340706828" />
+      <point x="4.54423537794878" y="-2.0856473407068847" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleBlock" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultToolErrorHandler" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CSharpCodeGenerator" target="groovyjarjarantlr.RuleBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DumpASTVisitor" target="groovyjarjarantlr.ASTVisitor">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultJavaCodeGeneratorPrintWriterManager" target="groovyjarjarantlr.JavaCodeGeneratorPrintWriterManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Alternative" target="groovyjarjarantlr.Token">
+      <point x="-4.987934434066574" y="0.34714561995338045" />
+      <point x="-4.987934434066574" y="0.34714561995338045" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharBuffer" target="groovyjarjarantlr.InputBuffer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CommonASTWithHiddenTokens" target="groovyjarjarantlr.CommonAST">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CSharpCodeGenerator" target="groovyjarjarantlr.CSharpBlockFinishingInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.StringLiteralSymbol" target="groovyjarjarantlr.TokenSymbol">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamException" target="groovyjarjarantlr.ANTLRException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.AlternativeElement" target="groovyjarjarantlr.GrammarElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockContext" target="groovyjarjarantlr.Alternative">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CppCharFormatter" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenBuffer" target="groovyjarjarantlr.TokenStream">
+      <point x="-2.462340821175303" y="-4.351652293138159" />
+      <point x="-2.462340821175303" y="-4.351652293138159" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeSpecifierNode" target="groovyjarjarantlr.Token">
+      <point x="-3.7817034193174095" y="3.2708896722945155" />
+      <point x="-3.7817034193174095" y="3.2708896722945155" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleEndElement" target="groovyjarjarantlr.Lookahead">
+      <point x="4.950892276948082" y="0.6990462517285323" />
+      <point x="4.950892276948082" y="0.6990462517287597" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRHashString" target="groovyjarjarantlr.CharScanner">
+      <point x="5.325843039522624" y="-9.094947017729282E-13" />
+      <point x="0.0" y="14.517484920816514" />
+    </edge>
+    <edge source="groovyjarjarantlr.JavaCodeGenerator" target="groovyjarjarantlr.RuleBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Alternative" target="groovyjarjarantlr.Lookahead">
+      <point x="4.420757448428503" y="2.336001622894173" />
+      <point x="4.420757448428503" y="2.3360016228939458" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharStreamException" target="groovyjarjarantlr.ANTLRException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.JavaCodeGenerator" target="groovyjarjarantlr.JavaBlockFinishingInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.JavaCodeGenerator" target="groovyjarjarantlr.JavaCodeGeneratorPrintWriterManager">
+      <point x="-3.0283662481665488" y="-3.978567313363783" />
+      <point x="-3.0283662481663214" y="-3.978567313363783" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefParser" target="groovyjarjarantlr.LLkParser">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.ParseTreeRule">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MakeGrammar" target="groovyjarjarantlr.DefineGrammarSymbols">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamBasicFilter" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleRefElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleBlock" target="groovyjarjarantlr.RuleEndElement">
+      <point x="2.9745765305790997" y="4.018941958243204" />
+      <point x="2.9745765305790997" y="4.018941958243204" />
+    </edge>
+    <edge source="groovyjarjarantlr.StringLiteralElement" target="groovyjarjarantlr.GrammarAtom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.SimpleTokenManager" target="groovyjarjarantlr.TokenManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRLexer" target="groovyjarjarantlr.CharScanner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarpicocli" target="groovyjarjarpicocli">
+      <point x="57.0" y="-15.0" />
+      <point x="14348.0" y="10.375" />
+      <point x="14358.375" y="0.0" />
+      <point x="14435.625" y="0.0" />
+      <point x="14446.0" y="10.375" />
+      <point x="14446.0" y="31.875" />
+      <point x="14435.625" y="42.25" />
+      <point x="124.0" y="-3.75" />
+    </edge>
+    <edge source="groovyjarjarantlr.AlternativeBlock" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BaseAST" target="groovyjarjarantlr.collections">
+      <point x="4.7395975460090085" y="-1.5925498742162745" />
+      <point x="4.739597546008781" y="-1.5925498742165018" />
+    </edge>
+    <edge source="groovyjarjarantlr.SynPredBlock" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.NoViableAltException" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharScanner" target="groovyjarjarantlr.ANTLRHashString">
+      <point x="-4.694092524784651" y="-1.7220613719496214" />
+      <point x="-4.6940925247847645" y="-1.7220613719491666" />
+    </edge>
+    <edge source="groovyjarjarantlr.CodeGenerator" target="groovyjarjarantlr.LLkGrammarAnalyzer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkAnalyzer" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.SimpleTokenManager" target="groovyjarjarantlr.Tool">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeElement" target="groovyjarjarantlr.GrammarAtom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.PythonCharFormatter" target="groovyjarjarantlr.CharFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRLexer" target="groovyjarjarantlr.TokenStream">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkAnalyzer" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharRangeElement" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.JavaCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.AlternativeBlock" target="groovyjarjarantlr.Alternative">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DocBookCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
+      <point x="65.5" y="-15.0" />
+      <point x="201.5" y="13960.5" />
+      <point x="210.0" y="13952.0" />
+      <point x="289.5" y="13952.0" />
+      <point x="298.0" y="13960.5" />
+      <point x="298.0" y="13979.5" />
+      <point x="289.5" y="13988.0" />
+      <point x="136.0" y="-5.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockWithImpliedExitPath" target="groovyjarjarantlr.Lookahead">
+      <point x="-2.1803452700489743" y="4.4995660350055005" />
+      <point x="-2.1803452700489743" y="4.4995660350055005" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeParser" target="groovyjarjarantlr.ASTFactory">
+      <point x="-0.04609869369051012" y="-4.999787486527794" />
+      <point x="-0.04609869369051012" y="-4.999787486527794" />
+    </edge>
+    <edge source="groovyjarjarantlr.MismatchedTokenException" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamSelector" target="groovyjarjarantlr.TokenStream">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.SynPredBlock" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockEndElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.SemanticException" target="groovyjarjarantlr.RecognitionException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Alternative" target="groovyjarjarantlr.ExceptionSpec">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ASTIterator" target="groovyjarjarantlr.collections">
+      <point x="3.094104584890374" y="-3.9276604763854266" />
+      <point x="3.094104584890374" y="-3.927660476385313" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleEndElement" target="groovyjarjarantlr.BlockEndElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CSharpNameSpace" target="groovyjarjarantlr.NameSpace">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.OneOrMoreBlock" target="groovyjarjarantlr.BlockWithImpliedExitPath">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.OneOrMoreBlock" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamHiddenTokenFilter" target="groovyjarjarantlr.CommonHiddenStreamToken">
+      <point x="-3.3410159966268793" y="3.7198940993371252" />
+      <point x="-3.341015996626993" y="3.7198940993371252" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeWalkerGrammar" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockWithImpliedExitPath" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockContext" target="groovyjarjarantlr.BlockEndElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ParseTree" target="groovyjarjarantlr.BaseAST">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenRangeElement" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleSymbol" target="groovyjarjarantlr.RuleBlock">
+      <point x="-3.455341482503826" y="-3.6139473210450888" />
+      <point x="-3.4553414825038544" y="-3.6139473210450888" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharScanner" target="groovyjarjarantlr.Token">
+      <point x="4.914436202608499" y="0.921041155698731" />
+      <point x="4.914436202608556" y="0.921041155698731" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkGrammarAnalyzer" target="groovyjarjarantlr.GrammarAnalyzer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockEndElement" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.HTMLCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleBlock" target="groovyjarjarantlr.Lookahead">
+      <point x="4.140396839164794" y="2.803054408004755" />
+      <point x="4.140396839164794" y="2.803054408004755" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRLexer" target="groovyjarjarantlr.ANTLRTokenTypes">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine" target="groovyjarjarantlr.ASdebug">
+      <point x="0.0" y="12.197682327708662" />
+      <point x="-5.481709594879476" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharLiteralElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRetryException" target="groovyjarjarantlr.TokenStreamException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenRefElement" target="groovyjarjarantlr.Lookahead">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Grammar" target="groovyjarjarantlr.CodeGenerator">
+      <point x="-0.7115197237280881" y="4.949115040362813" />
+      <point x="-0.7115197237283155" y="4.949115040362813" />
+    </edge>
+    <edge source="groovyjarjarantlr.CommonToken" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkParser" target="groovyjarjarantlr.Parser">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ParseTreeToken" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamHiddenTokenFilter" target="groovyjarjarantlr.TokenStreamBasicFilter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CppCodeGenerator" target="groovyjarjarantlr.RuleBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.preprocessor" target="groovyjarjarantlr.LLkParser">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ByteBuffer" target="groovyjarjarantlr.InputBuffer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Grammar" target="groovyjarjarantlr.GrammarSymbol">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RuleSymbol" target="groovyjarjarantlr.GrammarSymbol">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefineGrammarSymbols" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.CharScanner">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRLexer" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine" target="groovyjarjarantlr.TokenWithIndex">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamSelector" target="groovyjarjarantlr.collections">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeParser" target="groovyjarjarantlr.TreeParserSharedInputState">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.RewriteOperation" target="groovyjarjarantlr.TokenStreamRewriteEngine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.MismatchedTokenException" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Grammar" target="groovyjarjarantlr.LLkGrammarAnalyzer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CodeGenerator" target="groovyjarjarantlr.DefineGrammarSymbols">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LexerSharedInputState" target="groovyjarjarantlr.InputBuffer">
+      <point x="2.3518413926293533" y="4.4123510812169116" />
+      <point x="2.3518413926293533" y="4.4123510812169116" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefineGrammarSymbols" target="groovyjarjarantlr.LLkAnalyzer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.NoViableAltException" target="groovyjarjarantlr.RecognitionException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenQueue" target="groovyjarjarantlr.Token">
+      <point x="3.7594666797517675" y="-3.2964238628910607" />
+      <point x="3.7594666797517675" y="-3.2964238628908333" />
+    </edge>
+    <edge source="groovyjarjarantlr.ImportVocabTokenManager" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CharScanner" target="groovyjarjarantlr.LexerSharedInputState">
+      <point x="4.914586038131915" y="-0.9202413128082298" />
+      <point x="4.914586038131915" y="-0.9202413128082298" />
+    </edge>
+    <edge source="groovyjarjarantlr.preprocessor" target="groovyjarjarantlr.Tool">
+      <point x="4.2827139945331965" y="-2.5803799799696208" />
+      <point x="4.2827139945331965" y="-2.580379979969848" />
+    </edge>
+    <edge source="groovyjarjarantlr.CommonASTWithHiddenTokens" target="groovyjarjarantlr.CommonHiddenStreamToken">
+      <point x="4.769110165605298" y="-1.5018615876037984" />
+      <point x="4.769110165605298" y="-1.5018615876037984" />
+    </edge>
+    <edge source="groovyjarjarantlr.CppCodeGenerator" target="groovyjarjarantlr.CppBlockFinishingInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.BlockContext" target="groovyjarjarantlr.AlternativeBlock">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkAnalyzer" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.LLkAnalyzer" target="groovyjarjarantlr.LLkGrammarAnalyzer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefaultFileLineFormatter" target="groovyjarjarantlr.FileLineFormatter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenWithIndex" target="groovyjarjarantlr.CommonToken">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Tool" target="groovyjarjarantlr.NameSpace">
+      <point x="4.729814365496395" y="1.6213747463013988" />
+      <point x="4.729814365496395" y="1.6213747463011714" />
+    </edge>
+    <edge source="groovyjarjarantlr.debug" target="groovyjarjarantlr.LLkParser">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.DefineGrammarSymbols" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.SimpleTokenManager" target="groovyjarjarantlr.TokenSymbol">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.CppCodeGenerator" target="groovyjarjarantlr.CodeGenerator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamRewriteEngine.InsertBeforeOp" target="groovyjarjarantlr.TokenStreamRewriteEngine">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.Grammar" target="groovyjarjarantlr.Token">
+      <point x="-4.389902079835792" y="2.3934827614696133" />
+      <point x="-4.389902079835906" y="2.3934827614696133" />
+    </edge>
+    <edge source="groovyjarjarantlr.preprocessor" target="groovyjarjarantlr.TokenStream">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TreeParser" target="groovyjarjarantlr.ASTNULLType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ANTLRTokdefLexer" target="groovyjarjarantlr.Token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.RecognitionException" target="groovyjarjarantlr.ANTLRException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.TokenStreamSelector" target="groovyjarjarantlr.ASdebug">
+      <point x="5.14536112339465" y="0.0" />
+      <point x="5.1453611233945935" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.ParserGrammar" target="groovyjarjarantlr.Grammar">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="groovyjarjarantlr.AlternativeBlock" target="groovyjarjarantlr.AlternativeElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Orthogonal" zoom="0.04433989164528087" x="7223.0" y="7003.999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
