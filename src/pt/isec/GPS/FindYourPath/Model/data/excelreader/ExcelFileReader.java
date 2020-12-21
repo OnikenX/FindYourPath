@@ -17,7 +17,7 @@ import java.util.List;
 
 public final class ExcelFileReader {
     private static boolean load = false;        //false: ainda não fez load.. true: já fez load
-    private static final List<Curso> listaCursos = new ArrayList<Curso>();
+    private static final List<Curso> listaCursos = new ArrayList<>();
 
     private ExcelFileReader() {
     }
@@ -38,8 +38,8 @@ public final class ExcelFileReader {
         //warning: caso haja erro a ler da primeira vez pode não cnseguir fazer de novo, mesmo sabendo que ainda não "leu" realmente
 
         //abertura do excel
-        FileInputStream fis = null;
-        HSSFWorkbook wb = null;
+        FileInputStream fis;
+        HSSFWorkbook wb;
 
         //Obtem o file
         try {
@@ -112,7 +112,7 @@ public final class ExcelFileReader {
         if (!load)                   //lista ainda nao foi loaded
             return null;            //return null
 
-        ArrayList<Curso> listaCursosComNomePedido = new ArrayList<Curso>(); //inicializa lista (mesmo que não haja cursos, não devolve null)
+        ArrayList<Curso> listaCursosComNomePedido = new ArrayList<>(); //inicializa lista (mesmo que não haja cursos, não devolve null)
 
         for (Curso curso : listaCursos) {                                         //para todos os cursos da lista
             if (curso.getNome().toLowerCase().contains(nome.toLowerCase()))      //vcerifica se o seu nome contem o nome colocado

@@ -189,7 +189,7 @@ public class FindYourPathData {
     //faz um lista com o nome dos cursos a procurar baseado na categoria
     //devolve essa lista com TODOS os nomes de cursos baseado nessa categoria
     private List<String> getNomeCursos(List<String> categorias) {
-        List<String> nomeCursos = new ArrayList<String>();
+        List<String> nomeCursos = new ArrayList<>();
 
         for (String categoria : categorias) {
             switch (categoria) {
@@ -342,34 +342,22 @@ public class FindYourPathData {
      * @param cat        o character associado a categoria
      */
     public void addPontosCat(int acrescento, String cat) {
-        if (cat.equals("A"))
-            catA += acrescento;
-        else if (cat.equals("B"))
-            catB += acrescento;
-        else if (cat.equals("C"))
-            catC += acrescento;
-        else if (cat.equals("D"))
-            catD += acrescento;
-        else if (cat.equals("E"))
-            catE += acrescento;
-        else if (cat.equals("F"))
-            catF += acrescento;
-        else if (cat.equals("G"))
-            catG += acrescento;
-        else if (cat.equals("H"))
-            catH += acrescento;
-        else if (cat.equals("I"))
-            catI += acrescento;
-        else if (cat.equals("J"))
-            catJ += acrescento;
-        else if (cat.equals("K"))
-            catK += acrescento;
-        else if (cat.equals("L"))
-            catL += acrescento;
-        else if (cat.equals("M"))
-            catM += acrescento;
-        else if (cat.equals("N"))
-            catN += acrescento;
+        switch (cat) {
+            case "A" -> catA += acrescento;
+            case "B" -> catB += acrescento;
+            case "C" -> catC += acrescento;
+            case "D" -> catD += acrescento;
+            case "E" -> catE += acrescento;
+            case "F" -> catF += acrescento;
+            case "G" -> catG += acrescento;
+            case "H" -> catH += acrescento;
+            case "I" -> catI += acrescento;
+            case "J" -> catJ += acrescento;
+            case "K" -> catK += acrescento;
+            case "L" -> catL += acrescento;
+            case "M" -> catM += acrescento;
+            case "N" -> catN += acrescento;
+        }
     }
 
     public int getPontosCat(String cat) {
@@ -394,7 +382,7 @@ public class FindYourPathData {
 
     private List<Curso> getListCursos(List<String> listaNomeCursos) {
 
-        List<Curso> listaCursos = new ArrayList<Curso>();       //cria uma lista que vai guardar todos os cursos
+        List<Curso> listaCursos = new ArrayList<>();       //cria uma lista que vai guardar todos os cursos
 
         for (String nomeCurso : listaNomeCursos) {                  //para cada um dos nomes dos cursos
 
