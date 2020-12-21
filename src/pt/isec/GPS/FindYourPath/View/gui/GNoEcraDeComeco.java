@@ -1,16 +1,56 @@
 package pt.isec.GPS.FindYourPath.View.gui;
 
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import pt.isec.GPS.FindYourPath.Model.FindYourPathModel;
-import pt.isec.GPS.FindYourPath.Model.estados.IEstado;
+import javafx.scene.text.Text;
+import pt.isec.GPS.FindYourPath.Controller.FindYourPathObservable;
+import pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco;
 
 public class GNoEcraDeComeco extends VBox {
-    private final FindYourPathModel findYourPathModel;
+    private final FindYourPathObservable findYourPathObservable;
 
-    public GNoEcraDeComeco(FindYourPathModel findYourPathModel) {
-        this.findYourPathModel = findYourPathModel;
-
+    public GNoEcraDeComeco(FindYourPathObservable findYourPathObservable) {
+        this.findYourPathObservable = findYourPathObservable;
+        findYourPathObservable.addPropertyChangeListener(e -> actualizar());
+        organizaComponentes();
     }
 
+    private void actualizar() {
+        if(findYourPathObservable.getEstado() == NoEcraDeComeco.class){
+            setVisible(true);
+            System.out.println("no actualizar");
+        }
+        setVisible(false);
+    }
 
+    private void organizaComponentes() {
+        Label descricao  = new Label(
+                "Neste programa vai colcocar a sua média e responder a um teste " +
+                "psicotecnico e no final ser-lhe-à mostrada uma lista de cursos sugerida," +
+                        " sendo que pode filtra-la pela localização dos institutos superiores e/ou " +
+                        "guardar os resultados obtidos.");
+        descricao.setWrapText(true);
+        TextField media = new TextField();
+        media.setPromptText("Insira a media.");
+        Button button = new Button("Começar");
+        button.setOnAction(e->{
+            if (!findYourPathObservable.setMedia(media.getText())){
+                media.clear();
+                media.setPromptText("A media tem de ser um valor entre 9.5 a 20.");
+            }else{
+                try {
+                    findYourPathObservable.comecarTeste(media.getText());
+                } catch (Exception exception) {
+                    ErrorDialogException.set(exception);
+                }
+            }
+        });
+
+        HBox input = new HBox(media, button);
+        getChildren().addAll(descricao, input);
+
+    }
 }

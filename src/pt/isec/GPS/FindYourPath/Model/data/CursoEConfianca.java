@@ -1,5 +1,5 @@
 package pt.isec.GPS.FindYourPath.Model.data;
-import pt.isec.GPS.FindYourPath.Model.excelreader.Curso;
+import pt.isec.GPS.FindYourPath.Model.data.excelreader.Curso;
 
 public class CursoEConfianca {
 

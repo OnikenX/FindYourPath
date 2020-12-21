@@ -1,4 +1,4 @@
-package pt.isec.GPS.FindYourPath.Model.excelreader;
+package pt.isec.GPS.FindYourPath.Model.data.excelreader;
 
 public class Curso {
 

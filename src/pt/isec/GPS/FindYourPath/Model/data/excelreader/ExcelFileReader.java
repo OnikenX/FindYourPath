@@ -1,4 +1,4 @@
-package pt.isec.GPS.FindYourPath.Model.excelreader;
+package pt.isec.GPS.FindYourPath.Model.data.excelreader;
 
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -179,7 +179,7 @@ public final class ExcelFileReader {
         //coloca as colunas iniciais
         Row row = sheet.createRow(0);
         Cell cell = row.createCell(0);
-        cell.setCellValue("pt.isec.GPS.FindYourPath.Model.excelreader.Curso");
+        cell.setCellValue("pt.isec.GPS.FindYourPath.Model.data.excelreader.Curso");
         cell = row.createCell(1);
         cell.setCellValue("Instituto");
         cell = row.createCell(2);

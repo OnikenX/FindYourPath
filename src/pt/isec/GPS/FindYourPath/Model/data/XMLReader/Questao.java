@@ -1,4 +1,4 @@
-package pt.isec.GPS.FindYourPath.Model.XMLReader;
+package pt.isec.GPS.FindYourPath.Model.data.XMLReader;
 
 public class Questao {
 

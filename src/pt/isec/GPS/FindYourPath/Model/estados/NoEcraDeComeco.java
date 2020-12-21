@@ -3,13 +3,16 @@ package pt.isec.GPS.FindYourPath.Model.estados;
 import pt.isec.GPS.FindYourPath.Model.data.FindYourPathData;
 
 public class NoEcraDeComeco extends EstadoAdapter {
-    public NoEcraDeComeco(FindYourPathData findYourPathData) {
-        super(findYourPathData);
+    public NoEcraDeComeco(FindYourPathData findYourPathModel) {
+        super(findYourPathModel);
     }
 
     //TODO: implementar o começar
     @Override
-    public IEstado comecarTeste(int media) {
-        return super.comecarTeste(media);
+    public IEstado comecarTeste(String media) throws Exception {
+        if(getFindYourPathData().setMedia(media))
+            return new NoTeste(getFindYourPathData());
+        return this;
     }
+
 }
