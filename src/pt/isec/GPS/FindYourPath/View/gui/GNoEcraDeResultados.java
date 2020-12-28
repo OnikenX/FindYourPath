@@ -15,6 +15,7 @@ import pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados;
 import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -25,6 +26,12 @@ public class GNoEcraDeResultados extends VBox {
     List<CursoEConfianca> listaDeCursosEConfiancas = null;
 
     final FindYourPathObservable findYourPathObservable;
+
+
+    static final String Curso = "Curso";
+    static final String Universidade = "Universidade";
+    static final String Media = "Media";
+    static final String Confiança = "Confiança";
 
 
     public GNoEcraDeResultados(FindYourPathObservable findYourPathObservable) {
@@ -74,7 +81,18 @@ public class GNoEcraDeResultados extends VBox {
     private Node setTitleNodes(String nome) {
         var toreturn = new Label(nome);
         toreturn.setStyle("stype:bold");
+        toreturn.setId(nome);
+        toreturn.setOnMouseClicked(()->{
+            orderby(nome);
+        });
         return toreturn;
+    }
+
+    private void orderby(String nome) {
+        switch(nome){
+            case Curso:
+                Collections.sort(listaDeCursosEConfiancas)
+        }
     }
 
     /**
@@ -85,10 +103,10 @@ public class GNoEcraDeResultados extends VBox {
         resultados.getChildren().clear();
 
         resultados.addRow(0,
-                setTitleNodes("Curso"),
-                setTitleNodes("Universidade"),
-                setTitleNodes("Media"),
-                setTitleNodes("Confiança")
+                setTitleNodes(Curso),
+                setTitleNodes(Universidade),
+                setTitleNodes(Media),
+                setTitleNodes(Confiança)
         );
 
         for (int i = 0; i < listaDeCursosEConfiancas.size(); i++)

@@ -17,6 +17,7 @@ public class Root extends StackPane{
         GNoEcraDeResultados gNoEcraDeResultados = new GNoEcraDeResultados(findYourPathObservable);
         GNoTeste gNoTeste = new GNoTeste(findYourPathObservable);
         getChildren().addAll(gNoEcraDeComeco, gNoTeste, gNoEcraDeResultados);
+
     }
 
 }

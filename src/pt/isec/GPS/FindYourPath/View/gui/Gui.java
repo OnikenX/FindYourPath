@@ -20,8 +20,9 @@ public class Gui extends Application {
         findYourPathObservable = new FindYourPathObservable(new FindYourPathModel());
         primaryStage.setTitle("FindYourPath");
         root = new Root(findYourPathObservable);
-
+        root.setCenterShape(true);
         primaryStage.setScene(new Scene(root, 720, 540));
+        primaryStage.getScene().getStylesheets().add("pt/isec/GPS/FindYourPath/View/gui/styles.css");
         primaryStage.show();
     }
 }
