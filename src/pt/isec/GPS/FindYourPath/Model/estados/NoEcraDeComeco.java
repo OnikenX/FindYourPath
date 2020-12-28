@@ -10,6 +10,7 @@ public class NoEcraDeComeco extends EstadoAdapter {
     //TODO: implementar o começar
     @Override
     public IEstado comecarTeste(String media) throws Exception {
+        getFindYourPathData().setMedia(media);
         if(getFindYourPathData().setMedia(media))
             return new NoTeste(getFindYourPathData());
         return this;

@@ -66,8 +66,8 @@ public class FindYourPathData {
         try {
             n = Double.parseDouble(med);
         } catch (NullPointerException | NumberFormatException e) {
-            System.out.println("returnou excecao");
-            e.printStackTrace();
+            //System.out.println("returnou excecao");
+            //e.printStackTrace();
             return false;
         }
         if (n < 9.5 || n > 20.0)

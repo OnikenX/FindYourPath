@@ -1,5 +1,7 @@
 package pt.isec.GPS.FindYourPath.View.gui;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Node;
 import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
@@ -9,13 +11,11 @@ import javafx.stage.FileChooser;
 import pt.isec.GPS.FindYourPath.Controller.FindYourPathObservable;
 import pt.isec.GPS.FindYourPath.Model.data.CursoEConfianca;
 import pt.isec.GPS.FindYourPath.Model.data.excelreader.Curso;
-import pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco;
 import pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados;
 
-import javax.swing.*;
 import java.io.File;
-import java.io.IOException;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -24,7 +24,7 @@ public class GNoEcraDeResultados extends VBox {
     TextField campoDeProcura = new TextField();
     GridPane resultados = new GridPane();
     List<CursoEConfianca> listaDeCursosEConfiancas = null;
-
+    Label mediaInserida = null;
     final FindYourPathObservable findYourPathObservable;
 
 
@@ -65,40 +65,98 @@ public class GNoEcraDeResultados extends VBox {
         Button nextTest = new Button("Novo Teste");
         nextTest.setOnAction(e -> findYourPathObservable.novoTeste());
         campoDeProcura.autosize();
-        getChildren().addAll(new HBox(labelResult , campoDeProcura, procura, guardar, nextTest));
+        getChildren().addAll(new HBox(labelResult, campoDeProcura, procura, guardar, nextTest));
         resultados.setGridLinesVisible(true);
         resultados.setHgap(5);
         resultados.setVgap(2);
         var scroll = new ScrollPane(resultados);
         scroll.autosize();
         getChildren().add(scroll);
+        mediaInserida = new Label();
+        setMediaLabelText();
+        getChildren().add(mediaInserida);
     }
+
+    private void setMediaLabelText() {
+        mediaInserida.setText("Media inserida: " + findYourPathObservable.getMedia());
+    }
+
 
     /**
      * @param nome
      * @return Uma label o texto recebido em bold
      */
+    LinkedList<Button> titlenodes = new LinkedList<>();
+
+    Button findnode(String name) {
+        for (var node : titlenodes)
+            if (node.getId().equals(name))
+                return node;
+        return null;
+    }
+
     private Node setTitleNodes(String nome) {
-        var toreturn = new Label(nome);
+        Button toreturn = findnode(nome);
+        if (toreturn != null)
+            return toreturn;
+        toreturn = new Button(nome);
         toreturn.setStyle("stype:bold");
         toreturn.setId(nome);
-        toreturn.setOnMouseClicked(()->{
-            orderby(nome);
-        });
+        toreturn.setOnAction(e -> orderby(nome));
+        titlenodes.add(toreturn);
         return toreturn;
     }
 
+    static String lastselected = "";
+
     private void orderby(String nome) {
-        switch(nome){
+        switch (nome) {
             case Curso:
-                Collections.sort(listaDeCursosEConfiancas)
+
+                if (lastselected.equals(nome)) {
+                    Collections.reverse(listaDeCursosEConfiancas);
+                } else {
+                    listaDeCursosEConfiancas.sort(Comparator.comparing(a -> a.getCurso().getNome()));
+                    lastselected = nome;
+                }
+                break;
+            case Confiança:
+
+                if (lastselected.equals(nome)) {
+                    Collections.reverse(listaDeCursosEConfiancas);
+                } else {
+                    listaDeCursosEConfiancas.sort(Comparator.comparing(CursoEConfianca::getConfianca));
+                    lastselected = nome;
+                }
+                break;
+            case Media:
+
+                if (lastselected.equals(nome)) {
+                    Collections.reverse(listaDeCursosEConfiancas);
+                } else {
+                    listaDeCursosEConfiancas.sort(Comparator.comparing(a -> a.getCurso().getMedia()));
+                    lastselected = nome;
+                }
+                break;
+            case Universidade:
+                if (lastselected.equals(nome)) {
+                    Collections.reverse(listaDeCursosEConfiancas);
+                } else {
+                    listaDeCursosEConfiancas.sort(Comparator.comparing(a -> a.getCurso().getUniversidade()));
+                    lastselected = nome;
+                }
+                break;
         }
+        //faz reset a grid depois de dar sort
+        criaOGrid();
+
     }
 
     /**
      * Recria a grid
      */
     private void criaOGrid() {
+        setMediaLabelText();
         //limpa o conteudo anterior
         resultados.getChildren().clear();
 
@@ -130,8 +188,9 @@ public class GNoEcraDeResultados extends VBox {
                     termoDeProcura = campoDeProcura.getText();
                 listaDeCursosEConfiancas = findYourPathObservable.finalizaTesteEObtemResultados(termoDeProcura);
                 for (var i : listaDeCursosEConfiancas)
-                    System.out.println("Curso: " + i.getCurso().toString() + " ; confiança: " + String.valueOf(i.getConfianca()));
+                    System.out.println("Curso: " + i.getCurso().toString() + " ;nome confiança: " + i.getConfianca());
                 System.out.println("tamanho da lista: " + listaDeCursosEConfiancas.size());
+                lastselected = "";
                 criaOGrid();
             } catch (Exception e) {
                 ErrorDialogException.set(e);
