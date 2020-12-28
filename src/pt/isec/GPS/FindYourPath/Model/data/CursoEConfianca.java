@@ -14,7 +14,16 @@ public class CursoEConfianca {
     }
 
     private double setConfiancaWithMedia(double media) {
-        return (50 + /*((media - curso.getMedia()) * */ ((media - curso.getMedia()) / 20)) ;   //normalização para 100%
+        double difMedia = media-curso.getMedia();
+        //normalização
+        difMedia /=20;
+        difMedia*=100;
+
+        //pssagem para [-50, 50]
+        difMedia /=2;
+
+        //obtem resultado;
+        return 50 + difMedia;
     }
 
 
