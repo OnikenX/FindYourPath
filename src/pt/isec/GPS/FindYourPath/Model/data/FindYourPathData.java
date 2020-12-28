@@ -196,10 +196,6 @@ public class FindYourPathData {
             switch (categoria) {
                 case "ciencia" -> {
                     nomeCursos.add("Biologia");
-                    nomeCursos.add("Biologia Aplicada");
-                    nomeCursos.add("Biologia Celular e Molecular");
-                    nomeCursos.add("Biologia Marinha");
-                    nomeCursos.add("Biologia Marinha e Biotecnologia");
                     nomeCursos.add("Bioquímica");
                     nomeCursos.add("Ciências de Engenharia - Engenharia de Minas e Geoambiente");
                     nomeCursos.add("Engenharia Biológica");
@@ -207,32 +203,14 @@ public class FindYourPathData {
                     nomeCursos.add("Geologia");
                     nomeCursos.add("Matemática Aplicada");
                     nomeCursos.add("Medicina");
-                    nomeCursos.add("Medicina Dentária");
-                    nomeCursos.add("Medicina Veterinária");
                     nomeCursos.add("Química Aplicada");
                 }
-                case "tecnologia" -> {
-                    nomeCursos.add("Engenharia Aeroespacial");
-                    nomeCursos.add("Engenharia Civil");
-                    nomeCursos.add("Engenharia de Energias Renováveis");
-                    nomeCursos.add("Engenharia de Materiais");
-                    nomeCursos.add("Engenharia e Gestão Industrial");
-                    nomeCursos.add("Engenharia Elétrica e Eletrónica");
-                    nomeCursos.add("Engenharia Eletrónica");
-                    nomeCursos.add("Engenharia Naval e Oceânica");
-                    nomeCursos.add("Engenharia Química");
-                    nomeCursos.add("Engenharia Química e Biológica");
-                    nomeCursos.add("Engenharia Química e Bioquímica");
-                    nomeCursos.add("Engenharia Têxtil");
-                }
+                case "tecnologia" -> nomeCursos.add("Engenharia");
                 case "economia" -> {
-                    nomeCursos.add("Arquitectura, área de especializ. em Interiores e Reabilitação do Edificado");
+                    nomeCursos.add("Arquitectura");
                     nomeCursos.add("Biotecnologia Alimentar");
                     nomeCursos.add("Conservação - Restauro");
-                    nomeCursos.add("Design de Equipamento");
-                    nomeCursos.add("Design de Moda");
-                    nomeCursos.add("Design de Moda e Têxtil");
-                    nomeCursos.add("Design e Marketing de Moda");
+                    nomeCursos.add("Design");
                     nomeCursos.add("Dieta Mediterrânica e Ciência dos Alimentos");
                     nomeCursos.add("Enologia");
                     nomeCursos.add("Património Cultural e Arqueologia");
@@ -244,103 +222,42 @@ public class FindYourPathData {
                     nomeCursos.add("Ciência Política");
                     nomeCursos.add("Contabilidade e Gestão Pública");
                     nomeCursos.add("Economia");
-                    nomeCursos.add("Engenharia e Gestão de Sistemas de Informação");
-                    nomeCursos.add("Engenharia e Gestão Industrial");
+                    nomeCursos.add("Engenharia");
                     nomeCursos.add("Gestão");
-                    nomeCursos.add("Gestão Comercial");
-                    nomeCursos.add("Gestão de Empresas");
-                    nomeCursos.add("Gestão de Marketing");
-                    nomeCursos.add("Gestão de Recursos Humanos");
-                    nomeCursos.add("Gestão de Negócios Internacionais");
-                    nomeCursos.add("Gestão de Recursos Humanos e Comportamento Organizacional");
-                    nomeCursos.add("Gestão de Sistemas de Informação");
-                    nomeCursos.add("Gestão do Património");
-                    nomeCursos.add("Gestão e Administração Pública");
-                    nomeCursos.add("Informática de Gestão");
-                    nomeCursos.add("Informática e Gestão de Empresas");
-                    nomeCursos.add("Marketing e Comunicação Empresarial");
-                    nomeCursos.add("Marketing e Negócios Internacionais");
-                    nomeCursos.add("Matemática Aplicada à Economia e à Gestão");
-                    nomeCursos.add("Matemática Aplicada à Gestão do Risco");
-                    nomeCursos.add("Matemática Aplicada à Tecnologia e à Empresa");
+                    nomeCursos.add("Informática");
+                    nomeCursos.add("Marketing");
+                    nomeCursos.add("Matemática Aplicada");
                     nomeCursos.add("Negócios Internacionais");
-                    nomeCursos.add("Organização e Gestão Empresariais");
                     nomeCursos.add("Recursos Humanos");
                     nomeCursos.add("Relações Humanas e Comunicação Organizacional");
                 }
                 case "borucracia" -> {
-                    nomeCursos.add("Administração Pública");
-                    nomeCursos.add("Administração Público-Privada");
-                    nomeCursos.add("Comunicação e Multimédia");
-                    nomeCursos.add("Comunicação Multimédia");
+                    nomeCursos.add("Administração");
+                    nomeCursos.add("Comunicação");
                     nomeCursos.add("Contabilidade");
-                    nomeCursos.add("Contabilidade e Administração");
-                    nomeCursos.add("Contabilidade e Auditoria");
-                    nomeCursos.add("Contabilidade e Finanças");
-                    nomeCursos.add("Contabilidade e Fiscalidade");
-                    nomeCursos.add("Contabilidade e Gestão Pública");
-                    nomeCursos.add("Estudos Clássicos");
-                    nomeCursos.add("Estudos Portugueses e Espanhóis");
-                    nomeCursos.add("Estudos Portugueses e Ingleses");
+                    nomeCursos.add("Estudos ");
                     nomeCursos.add("Finanças");
-                    nomeCursos.add("Finanças e Contabilidade");
-                    nomeCursos.add("Finanças Empresariais");
+                    nomeCursos.add("Finanças");
                     nomeCursos.add("Fiscalidade");
                     nomeCursos.add("Gestão");
-                    nomeCursos.add("Gestão Comercial");
-                    nomeCursos.add("Gestão da Distribuição e Logística");
-                    nomeCursos.add("Gestão da Distribuição e da Logística");
-                    nomeCursos.add("Gestão de Atividades Turísticas");
-                    nomeCursos.add("Gestão de Informação");
-                    nomeCursos.add("Gestão de Sistemas de Informação");
-                    nomeCursos.add("Gestão de Transportes e Logística");
-                    nomeCursos.add("Gestão e Administração Hoteleira");
-                    nomeCursos.add("Gestão e Administração Pública");
                     nomeCursos.add("Secretariado");
-                    nomeCursos.add("Secretariado de Administração");
-                    nomeCursos.add("Secretariado de Direção e Administração");
-                    nomeCursos.add("Secretariado e Comunicação Empresarial");
                 }
                 case "arte" -> {
-                    nomeCursos.add("Artes da Performance Cultural");
-                    nomeCursos.add("Arquitectura, área de especializ. em Interiores e Reabilitação do Edificado");
+                    nomeCursos.add("Arte");
                     nomeCursos.add("Arquitetura");
-                    nomeCursos.add("Arquitetura Paisagista");
                     nomeCursos.add("Arte e Design");
-                    nomeCursos.add("Artes e Humanidades");
-                    nomeCursos.add("Artes Plásticas");
-                    nomeCursos.add("Artes Plásticas e Multimédia");
-                    nomeCursos.add("Artes Plásticas e Tecnologias Artísticas");
-                    nomeCursos.add("Artes Visuais");
-                    nomeCursos.add("Artes Visuais e Tecnologias");
-                    nomeCursos.add("Artes Visuais e Tecnologias Artísticas");
                     nomeCursos.add("Cinema");
                     nomeCursos.add("Dança");
                     nomeCursos.add("Escultura");
                     nomeCursos.add("Estudos Artísticos");
-                    nomeCursos.add("Estudos Artísticos, variante de Artes do Espetáculo");
-                    nomeCursos.add("Estudos Musicais Aplicados");
-                    nomeCursos.add("Música em Contextos Comunitários");
+                    nomeCursos.add("Estudos Musicais");
+                    nomeCursos.add("Música");
                 }
                 case "servicos" -> {
-                    nomeCursos.add("Ciências da Cultura");
-                    nomeCursos.add("Ciências da Educação");
-                    nomeCursos.add("Ciências do Desporto");
+                    nomeCursos.add("Ciências");
                     nomeCursos.add("Desporto");
-                    nomeCursos.add("Desporto de Natureza e Turismo Ativo");
-                    nomeCursos.add("Desporto e Bem-Estar");
-                    nomeCursos.add("Desporto e Atividade Física");
-                    nomeCursos.add("Desporto e Lazer");
-                    nomeCursos.add("Desporto, Condição Física e Saúde");
                     nomeCursos.add("Educação");
-                    nomeCursos.add("Educação Ambiental");
-                    nomeCursos.add("Educação Básica");
-                    nomeCursos.add("Educação e Formação");
-                    nomeCursos.add("Educação Física e Desporto");
-                    nomeCursos.add("Educação Musical");
-                    nomeCursos.add("Educação Social");
                     nomeCursos.add("Enfermagem");
-                    nomeCursos.add("Enfermagem Veterinária");
                     nomeCursos.add("Farmácia");
                     nomeCursos.add("Fisiologia Clínica");
                     nomeCursos.add("Gestão de Eventos");
@@ -353,9 +270,8 @@ public class FindYourPathData {
                     nomeCursos.add("Serviço Social");
                 }
                 case "cienciaTec" -> {
-                    nomeCursos.add("Criminologia e Justiça Criminal");
                     nomeCursos.add("Criminologia");
-                    nomeCursos.add("Farmácia Biomédica");
+                    nomeCursos.add("Farmácia");
                     nomeCursos.add("Gestão de Bioindústrias");
                     nomeCursos.add("Optometria e Ciências da Visão");
                     nomeCursos.add("Ortóptica e Ciências da Visão");
@@ -366,18 +282,8 @@ public class FindYourPathData {
                 }
                 case "tecnologiaTec" -> {
                     nomeCursos.add("Informática");
-                    nomeCursos.add("Engenharia Civil");
-                    nomeCursos.add("Engenharia Civil e do Ambiente");
-                    nomeCursos.add("Engenharia Elétrica e Eletrónica");
-                    nomeCursos.add("Engenharia Eletromecânica");
-                    nomeCursos.add("Engenharia Eletrónica e Telecomunicações");
-                    nomeCursos.add("Engenharia Eletrónica e Telecomunicações e de Computadores");
-                    nomeCursos.add("Engenharia Eletrotécnica");
-                    nomeCursos.add("Engenharia Mecânica Automóvel");
-                    nomeCursos.add("Engenharia Mecatrónica");
-                    nomeCursos.add("Engenharia Metalúrgica e de Materiais");
-                    nomeCursos.add("Tecnologia e Design de Mobiliário");
-                    nomeCursos.add("Engenharia Mecânica");
+                    nomeCursos.add("Engenharia");
+                    nomeCursos.add("Tecnologia");
                 }
                 case "exterior" -> {
                     nomeCursos.add("Agricultura Biológica");
@@ -398,7 +304,7 @@ public class FindYourPathData {
                     nomeCursos.add("Tecnologia e Gestão Ambiental");
                 }
                 case "negociosTec" -> {
-                    nomeCursos.add("Gestão de Negócios Internacionais (Curso Euro)");
+                    nomeCursos.add("Gestão de Negócios");
                     nomeCursos.add("ensino em Inglês)");
                     nomeCursos.add("Gestão de Recursos Humanos");
                     nomeCursos.add("Tecnologia e Gestão Agroindustrial");
@@ -411,96 +317,34 @@ public class FindYourPathData {
                     nomeCursos.add("Gestão de Marketing");
                 }
                 case "comunicacao" -> {
-                    nomeCursos.add("Administração Público-Privada");
-                    nomeCursos.add("Administração e Marketing");
-                    nomeCursos.add("Administração Pública");
-                    nomeCursos.add("Administração Público-Privada");
-                    nomeCursos.add("Ciência da Informação");
-                    nomeCursos.add("Ciência Política");
+                    nomeCursos.add("Administração");
+                    nomeCursos.add("Informação");
                     nomeCursos.add("Ciência Política e Relações Internacionais");
-                    nomeCursos.add("Ciências da Comunicação");
-                    nomeCursos.add("Ciências da Comunicação: Jornalismo, Assessoria, Multimédia");
-                    nomeCursos.add("Comunicação e Jornalismo");
-                    nomeCursos.add("Comunicação Social");
-                    nomeCursos.add("Comunicação, Cultura e Organizações");
+                    nomeCursos.add("Comunicação");
                     nomeCursos.add("Direito");
                     nomeCursos.add("Jornalismo");
-                    nomeCursos.add("Jornalismo e Comunicação");
-                    nomeCursos.add("Línguas Aplicadas");
-                    nomeCursos.add("Línguas e Comunicação");
-                    nomeCursos.add("Línguas e Culturas Estrangeiras");
-                    nomeCursos.add("Línguas e Estudos Editoriais");
-                    nomeCursos.add("Línguas e Literaturas");
-                    nomeCursos.add("Línguas e Literaturas Europeias");
-                    nomeCursos.add("Línguas e Relações Empresariais");
-                    nomeCursos.add("Línguas e Relações Internacionais");
-                    nomeCursos.add("Línguas Estrangeiras: Inglês e Espanhol");
-                    nomeCursos.add("Línguas Modernas");
-                    nomeCursos.add("Línguas para Relações Internacionais");
-                    nomeCursos.add("Línguas, Literaturas e Culturas");
+                    nomeCursos.add("Línguas");
                     nomeCursos.add("Português");
                     nomeCursos.add("Secretariado");
-                    nomeCursos.add("Secretariado de Administração");
-                    nomeCursos.add("Secretariado de Direção e Administração");
-                    nomeCursos.add("Secretariado e Comunicação Empresarial");
                 }
                 case "arteTec" -> {
-                    nomeCursos.add("Arte Multimédia");
+                    nomeCursos.add("Multimédia");
                     nomeCursos.add("Arte e Design");
-                    nomeCursos.add("Audiovisual e Multimédia");
-                    nomeCursos.add("Ciências da Comunicação: Jornalismo, Assessoria, Multimédia");
-                    nomeCursos.add("Comunicação e Design Multimédia");
                     nomeCursos.add("Design");
-                    nomeCursos.add("Design de Ambientes");
-                    nomeCursos.add("Design de Animação e Multimédia");
-                    nomeCursos.add("Design de Comunicação");
-                    nomeCursos.add("Design de Comunicação e Audiovisual");
-                    nomeCursos.add("Design de Equipamento");
-                    nomeCursos.add("Design de Interiores e Equipamento");
-                    nomeCursos.add("Design de Jogos Digitais");
-                    nomeCursos.add("Design de Moda");
-                    nomeCursos.add("Design de Moda e Têxtil");
-                    nomeCursos.add("Design de Produto");
-                    nomeCursos.add("Design de Produto - Cerâmica e Vidro");
-                    nomeCursos.add("Design de Produto e Tecnologia");
-                    nomeCursos.add("Design do Produto");
-                    nomeCursos.add("Design e Marketing de Moda");
-                    nomeCursos.add("Design e Multimédia");
-                    nomeCursos.add("Design e Tecnologia das Artes Gráficas");
-                    nomeCursos.add("Design Gráfico");
-                    nomeCursos.add("Design Gráfico e Multimédia");
-                    nomeCursos.add("Design Industrial");
-                    nomeCursos.add("Design Multimédia");
-                    nomeCursos.add("Engenharia da Computação Gráfica e Multimédia");
                     nomeCursos.add("Engenharia Topográfica");
                     nomeCursos.add("Fotografia");
-                    nomeCursos.add("Tecnologias e Design de Multimédia");
-                    nomeCursos.add("Tecnologias da Informação e Multimédia");
-                    nomeCursos.add("Teatro e Artes Performativas");
                     nomeCursos.add("Teatro");
                 }
                 case "servicosTec" -> {
-                    nomeCursos.add("Animação Cultural e Comunitária");
-                    nomeCursos.add("Animação Sociocultural");
-                    nomeCursos.add("Animação Socioeducativa");
-                    nomeCursos.add("Desporto de Natureza e Turismo Ativo");
+                    nomeCursos.add("Animação");
+                    nomeCursos.add("Turismo ");
                     nomeCursos.add("Dietética e Nutrição");
                     nomeCursos.add("Direção e Gestão Hoteleira");
-                    nomeCursos.add("Educação Ambiental e Turismo de Natureza");
-                    nomeCursos.add("Gestão do Lazer e Animação Turística");
-                    nomeCursos.add("Gestão e Administração Hoteleira");
-                    nomeCursos.add("Gestão e Planeamento em Turismo");
-                    nomeCursos.add("Gestão Hoteleira");
-                    nomeCursos.add("Gestão Turística e Hoteleira");
+                    nomeCursos.add("Gestão");
                     nomeCursos.add("Segurança do Trabalho e Ambiente");
-                    nomeCursos.add("Turismo, Território e Patrimónios");
-                    nomeCursos.add("Turismo em Espaços Rurais e Naturais");
-                    nomeCursos.add("Turismo e Lazer");
-                    nomeCursos.add("Turismo");
                     nomeCursos.add("Serviço Social");
                 }
             }
-
         }
 
         return nomeCursos;
