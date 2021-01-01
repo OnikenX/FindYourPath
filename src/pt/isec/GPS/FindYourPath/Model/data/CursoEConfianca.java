@@ -17,7 +17,7 @@ public class CursoEConfianca {
         media /=10;
         double difMedia = media-(curso.getMedia()/10);
         //normalização
-        difMedia /=20;
+        difMedia /=10.5;
         difMedia*=100;
 
         //pssagem para [-50, 50]
