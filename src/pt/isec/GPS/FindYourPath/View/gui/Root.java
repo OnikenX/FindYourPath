@@ -5,7 +5,6 @@ import pt.isec.GPS.FindYourPath.Controller.FindYourPathObservable;
 
 public class Root extends StackPane{
     private final FindYourPathObservable findYourPathObservable;
-    StackPane center;
 
     public Root(FindYourPathObservable findYourPathObservable) {
         this.findYourPathObservable = findYourPathObservable;

@@ -1,5 +1,6 @@
 package pt.isec.GPS.FindYourPath.View.gui;
 
+import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
@@ -42,6 +43,8 @@ public class GNoTeste extends VBox {
         resposta0.setOnAction(e -> selecionarRespostaN(0));
 
         getChildren().addAll(pergunta, resposta3, resposta2,resposta1, resposta0, page);
+        page.setAlignment(Pos.BOTTOM_LEFT);
+
     }
 
     private void actualizar() {
@@ -52,7 +55,5 @@ public class GNoTeste extends VBox {
             page.setText("Pagina " + findYourPathObservable.getActualPage() + " de " + findYourPathObservable.getAllPages());
         } else
             setVisible(false);
-
-        System.out.println("Actualizado");
     }
 }

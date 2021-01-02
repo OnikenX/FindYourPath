@@ -1,5 +1,6 @@
 package pt.isec.GPS.FindYourPath.View.gui;
 
+import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -19,28 +20,29 @@ public class GNoEcraDeComeco extends VBox {
     }
 
     private void actualizar() {
-        if(findYourPathObservable.getEstado() == NoEcraDeComeco.class){
+        if (findYourPathObservable.getEstado() == NoEcraDeComeco.class) {
             setVisible(true);
-            System.out.println("no actualizar");
+            System.out.println("no actualizar comeco");
         }
         setVisible(false);
     }
 
     private void organizaComponentes() {
-        Label descricao  = new Label(
+        Label descricao = new Label(
                 "Neste programa vai colcocar a sua média e responder a um teste " +
-                "psicotecnico e no final ser-lhe-à mostrada uma lista de cursos sugerida," +
+                        "psicotecnico e no final ser-lhe-à mostrada uma lista de cursos sugerida," +
                         " sendo que pode filtra-la pela localização dos institutos superiores e/ou " +
                         "guardar os resultados obtidos.");
+//        descricao.setStyle("-fx-font-style: 'bold';");
         descricao.setWrapText(true);
         TextField media = new TextField();
         media.setPromptText("Insira a media.");
         Button button = new Button("Começar");
-        button.setOnAction(e->{
-            if (!findYourPathObservable.setMedia(media.getText())){
+        button.setOnAction(e -> {
+            if (!findYourPathObservable.setMedia(media.getText())) {
                 media.clear();
                 media.setPromptText("Valor entre 9.5 a 20.");
-            }else{
+            } else {
                 try {
                     findYourPathObservable.comecarTeste(media.getText());
                 } catch (Exception exception) {
@@ -48,9 +50,11 @@ public class GNoEcraDeComeco extends VBox {
                 }
             }
         });
-
         HBox input = new HBox(media, button);
-        getChildren().addAll(descricao, input);
-
+        VBox space = new VBox();
+        getChildren().addAll(descricao, space);
+        space.setAlignment(Pos.CENTER);
+        space.getChildren().addAll(input);
+        input.setAlignment(Pos.CENTER);
     }
 }

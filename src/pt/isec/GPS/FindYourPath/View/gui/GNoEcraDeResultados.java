@@ -172,7 +172,7 @@ public class GNoEcraDeResultados extends VBox {
                     new Label(listaDeCursosEConfiancas.get(i).getCurso().getNome()),
                     new Label(listaDeCursosEConfiancas.get(i).getCurso().getUniversidade()),
                     new Label(String.valueOf(listaDeCursosEConfiancas.get(i).getCurso().getMedia())),
-                    new Label(String.valueOf(listaDeCursosEConfiancas.get(i).getConfianca()))
+                    new Label(String.format("%.2f", listaDeCursosEConfiancas.get(i).getConfianca())+" %")
             );
     }
 
