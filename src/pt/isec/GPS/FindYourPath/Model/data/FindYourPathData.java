@@ -55,6 +55,26 @@ public class FindYourPathData {
         return XMLReader.LeitorXML(path);
     }
 
+    public void resetTeste(){
+        actualPage = 0;
+        catA = 0;
+        catB = 0;
+        catC = 0;
+        catD = 0;
+        catE = 0;
+        catF = 0;
+        catG = 0;
+        catH = 0;
+        catI = 0;
+        catJ = 0;
+        catK = 0;
+        catL = 0;
+        catM = 0;
+        catN = 0;
+        questaoActual = null;
+        media = -1;
+    }
+
     /**
      * recebe média em string
      * verifica se média [9.5; 20]
@@ -62,6 +82,7 @@ public class FindYourPathData {
      * return true: a média foi devidamente colocada e
      */
     public boolean setMedia(String med) {
+
         double n;
         try {
             n = Double.parseDouble(med);

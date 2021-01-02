@@ -12,6 +12,7 @@ public class NoEcraDeResultados extends EstadoAdapter{
     //TODO: implementar o novo teste
     @Override
     public IEstado novoTeste() {
+        getFindYourPathData().resetTeste();
         return new NoEcraDeComeco(getFindYourPathData());
     }
 }

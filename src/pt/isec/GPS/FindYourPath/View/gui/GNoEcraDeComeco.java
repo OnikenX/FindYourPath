@@ -23,8 +23,8 @@ public class GNoEcraDeComeco extends VBox {
         if (findYourPathObservable.getEstado() == NoEcraDeComeco.class) {
             setVisible(true);
             System.out.println("no actualizar comeco");
-        }
-        setVisible(false);
+        } else
+            setVisible(false);
     }
 
     private void organizaComponentes() {

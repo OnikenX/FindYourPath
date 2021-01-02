@@ -52,6 +52,8 @@ public class GNoEcraDeResultados extends VBox {
             FileChooser fc = new FileChooser();
             fc.setInitialDirectory((new File(System.getProperty("user.dir"))));
             fc.setSelectedExtensionFilter(new FileChooser.ExtensionFilter("Excel file", "xlsx" ));
+            fc.setInitialFileName("excel.xls");
+
             List<Curso> lista = new LinkedList<>();
             for (var i : listaDeCursosEConfiancas) {
                 lista.add(i.getCurso());

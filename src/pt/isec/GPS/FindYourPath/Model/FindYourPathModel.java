@@ -67,6 +67,7 @@ public class FindYourPathModel {
 
     public void novoTeste() {
         estado = estado.novoTeste();
+        System.out.println("setado o teste novo");
     }
 
 

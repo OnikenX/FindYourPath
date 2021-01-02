@@ -9,5 +9,4 @@ public interface IEstado {
     IEstado comecarTeste(String media) throws Exception;
     IEstado selecionarResposta(int nDaResposta) throws Exception;
     IEstado novoTeste();
-
 }

@@ -24,7 +24,5 @@ public class NoTeste extends EstadoAdapter {
             System.out.println("entrei no ecra de resultados");
             return new NoEcraDeResultados(getFindYourPathData());
         }
-
     }
-
 }
