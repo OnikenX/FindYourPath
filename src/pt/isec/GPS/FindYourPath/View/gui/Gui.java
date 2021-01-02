@@ -24,5 +24,7 @@ public class Gui extends Application {
         primaryStage.setScene(new Scene(root, 720, 540));
         primaryStage.getScene().getStylesheets().add("pt/isec/GPS/FindYourPath/View/gui/styles.css");
         primaryStage.show();
+        //lol
+        //ok
     }
 }
