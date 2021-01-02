@@ -26,5 +26,7 @@ public class Gui extends Application {
         primaryStage.show();
         // O Nuno Esteve Aqui v1!!!
         // O Nuno Esteve Aqui v2!!!
+        //lol
+        //ok
     }
 }
