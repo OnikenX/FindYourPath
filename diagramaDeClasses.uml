@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="118.75" y="0.0">pt.isec.GPS.FindYourPath.Model.data.FindYourPathData</node>
+    <node x="248.0" y="1702.0">pt.isec.GPS.FindYourPath.View.gui.ErrorDialogException</node>
+    <node x="640.0" y="0.0">pt.isec.GPS.FindYourPath.View.gui.GNoEcraDeResultados</node>
+    <node x="369.0" y="936.0">pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.PontosECategoria</node>
+    <node x="0.0" y="1702.0">pt.isec.GPS.FindYourPath.Model.data.XMLReader.XMLReader</node>
+    <node x="0.0" y="1083.0">pt.isec.GPS.FindYourPath.Controller.FindYourPathObservable</node>
+    <node x="1378.0" y="1083.0">pt.isec.GPS.FindYourPath.View.gui.GNoTeste</node>
+    <node x="1031.0" y="373.0">pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados</node>
+    <node x="0.0" y="959.5">pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.CustomComparatorPontosECategoria</node>
+    <node x="264.0" y="1508.0">pt.isec.GPS.FindYourPath.View.gui.GNoEcraDeComeco</node>
+    <node x="985.0" y="1508.0">pt.isec.GPS.FindYourPath.View.gui.Gui</node>
+    <node x="1358.5" y="0.0">pt.isec.GPS.FindYourPath.Model.estados.IEstado</node>
+    <node x="1342.0" y="373.0">pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco</node>
+    <node x="0.0" y="1508.0">pt.isec.GPS.FindYourPath.Model.data.excelreader.Curso</node>
+    <node x="1767.0" y="1508.0">pt.isec.GPS.FindYourPath.Model.data.XMLReader.Questao</node>
+    <node x="928.0" y="1083.0">pt.isec.GPS.FindYourPath.Model.data.excelreader.ExcelFileReader</node>
+    <node x="464.0" y="1083.0">pt.isec.GPS.FindYourPath.Model.FindYourPathModel</node>
+    <node x="655.0" y="1508.0">pt.isec.GPS.FindYourPath.Model.data.CursoEConfianca</node>
+    <node x="1376.0" y="1508.0">pt.isec.GPS.FindYourPath.View.gui.Root</node>
+    <node x="1330.5" y="151.0">pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter</node>
+    <node x="1634.0" y="373.0">pt.isec.GPS.FindYourPath.Model.estados.NoTeste</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco" target="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="86.0" />
+    </edge>
+    <edge source="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.CustomComparatorPontosECategoria" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
+      <point x="0.0" y="-27.5" />
+      <point x="174.5" y="911.0" />
+      <point x="223.5" y="911.0" />
+      <point x="-104.75" y="443.0" />
+    </edge>
+    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoTeste" target="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter">
+      <point x="0.0" y="-39.5" />
+      <point x="1753.5" y="348.0" />
+      <point x="1576.3333333333333" y="348.0" />
+      <point x="98.33333333333326" y="86.0" />
+    </edge>
+    <edge source="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter" target="pt.isec.GPS.FindYourPath.Model.estados.IEstado">
+      <point x="0.0" y="-86.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.PontosECategoria" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
+      <point x="0.0" y="-51.0" />
+      <point x="482.0" y="911.0" />
+      <point x="433.0" y="911.0" />
+      <point x="104.75" y="443.0" />
+    </edge>
+    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados" target="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter">
+      <point x="0.0" y="-39.5" />
+      <point x="1176.5" y="348.0" />
+      <point x="1379.6666666666667" y="348.0" />
+      <point x="-98.33333333333326" y="86.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="1081.4285714285713" y="363.4285714285714" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

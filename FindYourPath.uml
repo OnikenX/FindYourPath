@@ -4,64 +4,30 @@
   <OriginalElement>pt.isec.GPS.FindYourPath</OriginalElement>
   <nodes>
     <node x="1152.0" y="985.0">pt.isec.GPS.FindYourPath.Model.data.FindYourPathData</node>
-    <node x="489.5" y="1415.5">pt.isec.GPS.FindYourPath.Model.excelreader.Curso</node>
     <node x="860.0" y="1145.0">pt.isec.GPS.FindYourPath.View.gui.GNoEcraDeResultados</node>
-    <node x="1184.0" y="1145.0">pt.isec.GPS.FindYourPath.View.gui.GNoTeste</node>
+    <node x="87.0" y="-11.0">pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.PontosECategoria</node>
     <node x="2217.5" y="-37.0">pt.isec.GPS.FindYourPath.Controller.FindYourPathObservable</node>
+    <node x="1184.0" y="1145.0">pt.isec.GPS.FindYourPath.View.gui.GNoTeste</node>
     <node x="332.5" y="759.5">pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados</node>
+    <node x="505.5" y="612.5">pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.CustomComparatorPontosECategoria</node>
     <node x="1451.5" y="239.5">pt.isec.GPS.FindYourPath.View.gui.GNoEcraDeComeco</node>
-    <node x="-19.0" y="599.5">pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco</node>
     <node x="362.0" y="308.0">pt.isec.GPS.FindYourPath.Model.estados.IEstado</node>
+    <node x="-19.0" y="599.5">pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco</node>
     <node x="1865.5" y="-12.5">pt.isec.GPS.FindYourPath.Model.FindYourPathModel</node>
-    <node x="-6.5" y="1139.0">pt.isec.GPS.FindYourPath.Model.excelreader.ExcelFileReader</node>
     <node x="1455.5" y="415.0">pt.isec.GPS.FindYourPath.View.gui.Root</node>
     <node x="730.0" y="711.0">pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter</node>
     <node x="1122.0" y="159.5">pt.isec.GPS.FindYourPath.Model.estados.NoTeste</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="pt.isec.GPS.FindYourPath.View.gui.Root" target="pt.isec.GPS.FindYourPath.View.gui.GNoEcraDeComeco">
-      <point x="0.0" y="-65.0" />
-      <point x="0.0" y="40.5" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.excelreader.ExcelFileReader" target="pt.isec.GPS.FindYourPath.Model.excelreader.Curso">
-      <point x="0.0" y="101.0" />
-      <point x="200.0" y="1600.0" />
-      <point x="600.0" y="1600.0" />
-      <point x="0.0" y="64.5" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Controller.FindYourPathObservable" target="pt.isec.GPS.FindYourPath.Model.FindYourPathModel">
-      <point x="-222.5" y="-0.0" />
-      <point x="134.5" y="-0.0" />
-    </edge>
     <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoTeste" target="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter">
       <point x="-118.0" y="34.285714285714334" />
       <point x="920.0" y="234.28571428571433" />
       <point x="40.0" y="-89.0" />
     </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco" target="pt.isec.GPS.FindYourPath.Model.estados.IEstado">
-      <point x="40.0" y="-40.5" />
-      <point x="160.0" y="360.0" />
-      <point x="-118.0" y="-0.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
-      <point x="0.0" y="40.5" />
-      <point x="120.0" y="1000.0" />
-      <point x="-88.0" y="-0.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados" target="pt.isec.GPS.FindYourPath.Model.estados.IEstado">
-      <point x="0.0" y="-40.5" />
-      <point x="0.0" y="52.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.FindYourPathModel" target="pt.isec.GPS.FindYourPath.Model.estados.IEstado">
-      <point x="-134.5" y="40.0" />
-      <point x="480.0" y="80.0" />
-      <point x="0.0" y="-52.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
-      <point x="0.0" y="40.5" />
-      <point x="480.0" y="997.1428571428571" />
-      <point x="-88.0" y="-2.857142857142854" />
+    <edge source="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.PontosECategoria" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
+      <point x="0.0" y="51.0" />
+      <point x="0.0" y="-443.0" />
     </edge>
     <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeResultados" target="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter">
       <point x="40.0" y="40.5" />
@@ -74,19 +40,9 @@
       <point x="760.0" y="640.0" />
       <point x="-120.0" y="-89.0" />
     </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.FindYourPathModel" target="pt.isec.GPS.FindYourPath.Model.estados.NoEcraDeComeco">
-      <point x="-134.5" y="-0.0" />
-      <point x="120.0" y="40.0" />
-      <point x="0.0" y="-40.5" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoTeste" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
-      <point x="0.0" y="40.5" />
-      <point x="0.0" y="-15.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.View.gui.GNoEcraDeComeco" target="pt.isec.GPS.FindYourPath.Model.FindYourPathModel">
-      <point x="148.5" y="-0.0" />
-      <point x="1920.0" y="280.0" />
-      <point x="-80.0" y="52.5" />
+    <edge source="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData.CustomComparatorPontosECategoria" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
+      <point x="-174.5" y="-0.0" />
+      <point x="209.5" y="-0.0" />
     </edge>
     <edge source="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter" target="pt.isec.GPS.FindYourPath.Model.estados.IEstado">
       <point x="-40.0" y="-89.0" />
@@ -94,30 +50,11 @@
       <point x="520.0" y="480.0" />
       <point x="40.0" y="52.0" />
     </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.NoTeste" target="pt.isec.GPS.FindYourPath.Model.estados.IEstado">
-      <point x="-118.0" y="-0.0" />
-      <point x="520.0" y="200.0" />
-      <point x="40.0" y="-52.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.FindYourPathModel" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
-      <point x="-20.0" y="52.5" />
-      <point x="1980.0" y="920.0" />
-      <point x="1280.0" y="920.0" />
-      <point x="40.0" y="-15.0" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.View.gui.Root" target="pt.isec.GPS.FindYourPath.Model.FindYourPathModel">
-      <point x="144.5" y="-0.0" />
-      <point x="1940.0" y="480.0" />
-      <point x="-60.0" y="52.5" />
-    </edge>
-    <edge source="pt.isec.GPS.FindYourPath.Model.estados.EstadoAdapter" target="pt.isec.GPS.FindYourPath.Model.data.FindYourPathData">
-      <point x="0.0" y="89.0" />
-      <point x="880.0" y="994.2857142857143" />
-      <point x="-88.0" y="-5.714285714285715" />
-    </edge>
   </edges>
-  <settings layout="Directed Orthogonal" zoom="0.8" x="1895.0" y="272.375" />
-  <SelectedNodes />
+  <settings layout="Directed Orthogonal" zoom="0.3278008298755187" x="1309.0" y="917.0" />
+  <SelectedNodes>
+    <node>pt.isec.GPS.FindYourPath.Model.data.FindYourPathData</node>
+  </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
