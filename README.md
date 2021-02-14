@@ -7,4 +7,4 @@ This project was done by:
 - [Marco Domingues](https://github.com/Blaldas)
 - [Nuno Santos](https://github.com/MidgetSlayer)
 - [Miguel Fazenda](https://github.com/D1scak3)
-- Henrique Negrão
+- [Henrique Negrão](https://github.com/SmithGama)
